@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="9/2/2016 6:06:10 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="9/2/2016 9:51:43 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0580
+</plugIn>    Last step completed in 00:00:00.0540
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1370
+    Last step completed in 00:00:00.1280
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 9/2/2016 6:06:13 PM.
+Build started 9/2/2016 9:51:46 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 30 namespaces, 889 types, and 11038 members
+  Wrote information on 30 namespaces, 889 types, and 11040 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:04.90
-    Last step completed in 00:00:05.1320
+Time Elapsed 00:00:04.72
+    Last step completed in 00:00:04.9455
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 9/2/2016 6:06:18 PM.
+Build started 9/2/2016 9:51:51 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -576,6 +576,9 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Add_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.Add(Rhino.Geometry.GeometryBase,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddAngularDimension_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.AngularDimension,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddAngularDimension_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddAngularDimension_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.V6Annotation.AngularDimension)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddAngularDimension_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddAngularDimension_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddArc_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddArc(Rhino.Geometry.Arc,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddArc_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddArc(Rhino.Geometry.Arc,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddBrep_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddBrep(Rhino.Geometry.Brep,Rhino.DocObjects.ObjectAttributes)
@@ -597,17 +600,24 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddHatch_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddHatch(Rhino.Geometry.Hatch,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddInstanceObject_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddInstanceObject(System.Int32,Rhino.Geometry.Transform,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d})
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d})
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLeader_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLine_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLine(Rhino.Geometry.Line,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLine_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLine(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLine_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLine(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLine_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLine(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLinearDimension_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.LinearDimension,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLinearDimension_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLinearDimension_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.V6Annotation.LinearDimension)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLinearDimension_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddLinearDimension_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddMesh_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddMesh_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddMesh_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean,System.Boolean)
@@ -631,16 +641,13 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddPolyline_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddPolyline(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRadialDimension_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRadialDimension(Rhino.Geometry.RadialDimension,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRadialDimension_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRadialDimension(Rhino.Geometry.RadialDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRadialDimension_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRadialDimension(Rhino.Geometry.V6Annotation.RadialDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.CurveObject,Rhino.Geometry.Curve)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.Custom.CustomBrepObject)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.Custom.CustomMeshObject)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.Custom.CustomPointObject)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.MeshObject,Rhino.Geometry.Mesh)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRhinoObject_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.PointObject,Rhino.Geometry.Point)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRichText_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRichText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRichText_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRichText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRLeader_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddRLeader_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddRLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddSphere_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddSphere(Rhino.Geometry.Sphere,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddSphere_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddSphere(Rhino.Geometry.Sphere,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddSubD_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddSubD(Rhino.Geometry.SubD,Rhino.DocObjects.ObjectAttributes)
@@ -651,20 +658,20 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(System.String,Rhino.Geometry.Point3d)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(System.String,Rhino.Geometry.Point3d,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddV6AngularDimension_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddV6AngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddV6AngularDimension_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddV6AngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddV6LinearDimension_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddV6LinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddV6LinearDimension_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddV6LinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Delete_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.Delete(Rhino.DocObjects.ObjRef,System.Boolean,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Delete_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.Delete(Rhino.DocObjects.RhinoObject)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Delete_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.Delete(Rhino.DocObjects.RhinoObject,System.Boolean)
@@ -1701,17 +1708,17 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:22.75
-    Last step completed in 00:00:22.8840
+Time Elapsed 00:00:22.54
+    Last step completed in 00:00:22.6607
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8510
+    Last step completed in 00:00:00.8439
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -1720,7 +1727,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 9/2/2016 6:06:42 PM.
+Build started 9/2/2016 9:52:14 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1731,14 +1738,14 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:01.16
+Time Elapsed 00:00:01.17
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3300
+    Last step completed in 00:00:01.3449
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8400
+    Last step completed in 00:00:00.8519
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1751,7 +1758,7 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 9/2/2016 6:06:44 PM.
+Build started 9/2/2016 9:52:17 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -4213,6 +4220,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.AngularDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddAngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddArc(Rhino.Geometry.Arc,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddArc(Rhino.Geometry.Arc,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddArc(Rhino.Geometry.Arc,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;arc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4310,6 +4318,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;plane&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;points&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.Plane,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(Rhino.Geometry.V6Annotation.Leader,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLeader(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})] Missing &lt;param name=&quot;points&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4357,6 +4367,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.LinearDimension,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddLinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddMesh(Rhino.Geometry.Mesh,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;mesh&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4420,7 +4431,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.PointObject,Rhino.Geometry.Point)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.PointObject,Rhino.Geometry.Point)] Missing &lt;param name=&quot;pointObject&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddRhinoObject(Rhino.DocObjects.PointObject,Rhino.Geometry.Point)] Missing &lt;param name=&quot;point&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddRichText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSphere(Rhino.Geometry.Sphere)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSphere(Rhino.Geometry.Sphere)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSphere(Rhino.Geometry.Sphere)] Missing &lt;param name=&quot;sphere&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4453,6 +4463,16 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4501,8 +4521,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddV6AngularDimension(Rhino.Geometry.V6Annotation.AngularDimension,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddV6LinearDimension(Rhino.Geometry.V6Annotation.LinearDimension,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.ObjectTable.ComponentType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.FindByObjectType(Rhino.DocObjects.ObjectType)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.FindByObjectType(Rhino.DocObjects.ObjectType)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8299,21 +8317,20 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballPick
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.UI.Gumball.GumballPickResult.Mode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Gumball.GumballPickResult.SetToDefault] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScaleMode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12492 topic(s)
-  6540 warning(s)
+  Processed 12490 topic(s)
+  6551 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
-  SaveComponent: Waiting for the document writer task to finish (12 Help1 API file(s) remaining)...
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:52.42
-    Last step completed in 00:03:52.6266
+Time Elapsed 00:03:52.23
+    Last step completed in 00:03:52.4202
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1150
+    Last step completed in 00:00:00.1100
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8325,17 +8342,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12492 HTML files
+Processed 12490 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12492 HTML files
+Processed 12490 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:26.4828
+    Last step completed in 00:00:31.1855
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8476,7 +8493,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7350
+    Last step completed in 00:00:02.5687
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8488,7 +8505,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1940
+    Last step completed in 00:00:00.1950
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8505,9 +8522,9 @@ Compiling HTML Help 1 file...
   
   Compile time: 2 minutes, 5 seconds
   
-  12,494	Topics
+  12,492	Topics
   
-  177,083	Local links
+  177,075	Local links
   
   40,232	Internet links
   
@@ -8517,22 +8534,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,850,080 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,857,094 bytes
   
-  Compression decreased file by 107,480,560 bytes.
+  Compression decreased file by 107,472,100 bytes.
   
-    Last step completed in 00:02:07.1210
+    Last step completed in 00:02:07.2893
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:39.3540
+</plugIn>    Last step completed in 00:00:38.7601
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8567,16 +8584,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15239 files for the website content
-    Last step completed in 00:00:20.9712
+Copied 15233 files for the website content
+    Last step completed in 00:00:11.7684
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:19.3790
+    Last step completed in 00:00:15.1975
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/2/2016 6:14:32 PM.  Total time: 00:08:22.0776
+Build completed successfully at 9/2/2016 9:59:56 PM.  Total time: 00:08:13.1573
 
 </buildStep>
 </shfbBuild>
