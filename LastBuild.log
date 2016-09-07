@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="9/6/2016 3:21:15 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="9/6/2016 7:08:29 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,7 +29,7 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0480
+</plugIn>    Last step completed in 00:00:00.0570
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -38,7 +38,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 9/6/2016 3:21:19 PM.
+Build started 9/6/2016 7:08:32 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 30 namespaces, 889 types, and 11040 members
+  Wrote information on 31 namespaces, 891 types, and 11045 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:04.93
-    Last step completed in 00:00:05.1770
+Time Elapsed 00:00:04.85
+    Last step completed in 00:00:05.0845
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 9/6/2016 3:21:24 PM.
+Build started 9/6/2016 7:08:37 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -502,7 +502,8 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_DimStyleTable_Delete_1 generated for M:Rhino.DocObjects.Tables.DimStyleTable.Delete(System.Int32,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_DimStyleTable_Find_1 generated for M:Rhino.DocObjects.Tables.DimStyleTable.Find(System.String,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_DimStyleTable_GetUnusedStyleName_1 generated for M:Rhino.DocObjects.Tables.DimStyleTable.GetUnusedStyleName(System.String)
-    Unique name M_Rhino_DocObjects_Tables_DimStyleTable_Modify_1 generated for M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,System.Int32,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_DimStyleTable_Modify_1 generated for M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,System.Guid,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_DimStyleTable_Modify_2 generated for M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,System.Int32,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_FontTable_FindOrCreate_1 generated for M:Rhino.DocObjects.Tables.FontTable.FindOrCreate(System.String,System.Boolean,System.Boolean,Rhino.DocObjects.DimensionStyle)
     Unique name M_Rhino_DocObjects_Tables_GroupTable_Add_1 generated for M:Rhino.DocObjects.Tables.GroupTable.Add(System.Collections.Generic.IEnumerable{System.Guid})
     Unique name M_Rhino_DocObjects_Tables_GroupTable_Add_2 generated for M:Rhino.DocObjects.Tables.GroupTable.Add(System.String)
@@ -1708,17 +1709,17 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:22.55
-    Last step completed in 00:00:22.6710
+Time Elapsed 00:00:22.46
+    Last step completed in 00:00:22.5937
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8450
+    Last step completed in 00:00:00.8609
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -1727,7 +1728,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 9/6/2016 3:21:47 PM.
+Build started 9/6/2016 7:09:01 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1740,12 +1741,12 @@ Build succeeded.
 
 Time Elapsed 00:00:01.17
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3370
+    Last step completed in 00:00:01.3419
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8260
+    Last step completed in 00:00:00.8479
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1758,7 +1759,7 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 9/6/2016 3:21:49 PM.
+Build started 9/6/2016 7:09:03 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -3966,6 +3967,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimS
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.GetUnusedStyleName] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.GetUnusedStyleName(System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.DimStyleTable.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;param name=&quot;annotation&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4146,6 +4151,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.Mate
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.MaterialTableEventArgs.Index] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.MaterialTableEventArgs.OldSettings] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.DocObjects.Tables.MaterialTableEventType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.DocObjects.Tables.ModifyType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.NamedConstructionPlaneTable.GetEnumerator] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.NamedConstructionPlaneTable.GetEnumerator] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.NamedViewTable.Add(Rhino.DocObjects.ViewInfo)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -5762,6 +5768,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;rtfText&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.TextRotationDegrees] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.TextRotationRadians] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.Centermark.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.Centermark.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.Centermark.AdjustFromPoints(Rhino.Geometry.Plane,Rhino.Geometry.Point3d)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -5919,8 +5927,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;textscale&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.TextEntity.TextRotationDegrees] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.TextEntity.TextRotationRadians] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.V6Annotation.TextRunType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.RhinoGet.GetAngle(System.String,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.RhinoGet.GetAngle(System.String,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double@)] Missing &lt;param name=&quot;basePoint&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8317,22 +8323,27 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballPick
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.UI.Gumball.GumballPickResult.Mode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Gumball.GumballPickResult.SetToDefault] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScaleMode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12490 topic(s)
-  6551 warning(s)
+BuildAssembler : warning : ShowMissingComponent: [N:Rhino.V6DocObjects] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.V6DocObjects.AnnotationObjectBase] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;param name=&quot;aob&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+  Processed 12496 topic(s)
+  6561 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
-  SaveComponent: Waiting for the document writer task to finish (37 Help1 API file(s) remaining)...
-  SaveComponent: Waiting for the document writer task to finish (21 Website API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (25 Help1 API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (25 Website API file(s) remaining)...
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:51.59
-    Last step completed in 00:03:51.7902
+Time Elapsed 00:03:53.46
+    Last step completed in 00:03:53.6736
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1300
+    Last step completed in 00:00:00.1190
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8344,17 +8355,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12490 HTML files
+Processed 12496 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12490 HTML files
+Processed 12496 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:29.1166
+    Last step completed in 00:00:31.4123
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8495,7 +8506,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7670
+    Last step completed in 00:00:01.7758
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8503,11 +8514,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2030
+    Last step completed in 00:00:00.2020
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8524,11 +8535,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 2 minutes, 5 seconds
   
-  12,492	Topics
+  12,498	Topics
   
-  177,075	Local links
+  177,201	Local links
   
-  40,232	Internet links
+  40,239	Internet links
   
   0	Graphics
   
@@ -8536,22 +8547,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,857,030 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,853,100 bytes
   
-  Compression decreased file by 107,472,164 bytes.
+  Compression decreased file by 107,532,758 bytes.
   
-    Last step completed in 00:02:07.4710
+    Last step completed in 00:02:47.0393
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:36.2180
+</plugIn>    Last step completed in 00:00:41.7250
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8586,16 +8597,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15233 files for the website content
-    Last step completed in 00:00:17.4432
+Copied 15241 files for the website content
+    Last step completed in 00:00:14.8941
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:21.2106
+    Last step completed in 00:00:21.0415
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/6/2016 3:29:35 PM.  Total time: 00:08:19.2626
+Build completed successfully at 9/6/2016 7:17:35 PM.  Total time: 00:09:05.6572
 
 </buildStep>
 </shfbBuild>
