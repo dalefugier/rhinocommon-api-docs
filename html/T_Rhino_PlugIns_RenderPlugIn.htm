@@ -137,7 +137,13 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderSettingsCustomSections.htm">RenderSettingsCustomSections</a></td><td><div class="summary">
             Override this function to provide custom sections for the render settings panel that are displayed
             when your plug-in is the current render plug-in.
-            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderWindow.htm">RenderWindow(RhinoDoc, RunMode, Boolean, RhinoView, Rectangle, Boolean)</a></td><td><div class="summary">
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderSettingsSections.htm">RenderSettingsSections</a></td><td><div class="summary">
+             Override this method to provide the UUIDs of all sections that should be displayed in
+             the Render Settings tab when this is the current renderer.The default implementation
+             adds all the RDK's built-in Render Settings sections. These UUIDs start with the prefix
+             uuidRenderSettingsSection'. They can be found in RhRdkUuids.h
+            
+             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderWindow.htm">RenderWindow(RhinoDoc, RunMode, Boolean, RhinoView, Rectangle, Boolean)</a></td><td><div class="summary">
             This function is obsolete and only exists for legacy purposes.
             Do not override this function - prefer overriding the version with the blowup parameter.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderWindow_1.htm">RenderWindow(RhinoDoc, RunMode, Boolean, RhinoView, Rectangle, Boolean, Boolean)</a></td><td /></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ResetMessageBoxes.htm">ResetMessageBoxes</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReturnLicense.htm">ReturnLicense</a></td><td><div class="summary">
