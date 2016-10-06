@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="10/6/2016 4:59:07 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="10/6/2016 12:16:20 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -24,21 +24,21 @@ Source: D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\dotnet\Rel
 Source: D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\dotnet\Release\RhinoCommon.xml
 
 Copying XML comments files
-    D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\dotnet\Release\RhinoCommon.xml -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.xml
+    D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\dotnet\Release\RhinoCommon.XML -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0510
+</plugIn>    Last step completed in 00:00:00.0550
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1480
+    Last step completed in 00:00:00.1550
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 10/6/2016 4:59:09 AM.
+Build started 10/6/2016 12:16:24 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 30 namespaces, 863 types, and 10905 members
+  Wrote information on 30 namespaces, 863 types, and 10904 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:04.76
-    Last step completed in 00:00:04.9870
+Time Elapsed 00:00:04.86
+    Last step completed in 00:00:05.0761
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 10/6/2016 4:59:14 AM.
+Build started 10/6/2016 12:16:29 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -1712,17 +1712,17 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:22.36
-    Last step completed in 00:00:22.4840
+Time Elapsed 00:00:22.49
+    Last step completed in 00:00:22.6347
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8820
+    Last step completed in 00:00:00.8589
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -1731,7 +1731,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 10/6/2016 4:59:38 AM.
+Build started 10/6/2016 12:16:52 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1744,12 +1744,12 @@ Build succeeded.
 
 Time Elapsed 00:00:01.16
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3320
+    Last step completed in 00:00:01.3379
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8500
+    Last step completed in 00:00:00.8389
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1757,12 +1757,12 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0280
+    Last step completed in 00:00:00.0270
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 10/6/2016 4:59:40 AM.
+Build started 10/6/2016 12:16:54 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -6645,58 +6645,16 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PixelBuffer] Mi
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PixelBuffer.Buffer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RdkUndoRecord.#ctor(System.IntPtr)] Missing &lt;param name=&quot;pUndoRecord&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RdkUndoRecord.SetDescription(System.String)] Missing &lt;param name=&quot;description&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CaptureProgress] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CaptureProgress] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CreateWorld(Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CreateWorld(Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CreateWorld(Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes)] Missing &lt;param name=&quot;viewInfo&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.CreateWorld(Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes)] Missing &lt;param name=&quot;displayPipelineAttributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr)] Missing &lt;param name=&quot;realtimeViewport&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr,System.Boolean)] Missing &lt;param name=&quot;realtimeViewport&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRealtimeViewport(System.IntPtr,System.Boolean)] Missing &lt;param name=&quot;create&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRenderSize(System.Int32@,System.Int32@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRenderSize(System.Int32@,System.Int32@)] Missing &lt;param name=&quot;width&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetRenderSize(System.Int32@,System.Int32@)] Missing &lt;param name=&quot;height&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.GetView] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudAllowEditMaxPasses] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudAllowEditMaxPasses] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudLastRenderedPass] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudLastRenderedPass] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.HudLockButtonPressed] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudMaximumPasses] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudMaximumPasses] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.HudPauseButtonPressed] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.HudPlayButtonPressed] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudProductName] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudProductName] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudRendererLocked] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudRendererLocked] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudRendererPaused] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudRendererPaused] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShow] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShow] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowControls] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowMaxPasses] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowMaxPasses] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowPasses] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowPasses] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowStatusText] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudShowStatusText] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudStartTime] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudStartTime] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudStatusText] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.HudStatusText] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.HudUnlockButtonPressed] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.IsCompleted] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.IsFrameBufferAvailable(Rhino.DocObjects.ViewInfo)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.IsFrameBufferAvailable(Rhino.DocObjects.ViewInfo)] Missing &lt;param name=&quot;view&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.LastRenderedPass] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.LastRenderedPass] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.MaxPassesChanged] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.OnDisplayPipelineSettingsChanged] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.OnDrawMiddleground] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Render.RealtimeDisplayMode.OnInitFramebuffer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6708,20 +6666,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplay
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.RegisterDisplayModes(System.Reflection.Assembly,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.RegisterDisplayModes(System.Reflection.Assembly,System.Guid)] Missing &lt;param name=&quot;assembly&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.RegisterDisplayModes(System.Reflection.Assembly,System.Guid)] Missing &lt;param name=&quot;pluginId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.RemoveRealtimeViewport(System.IntPtr)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.RemoveRealtimeViewport(System.IntPtr)] Missing &lt;param name=&quot;realtimeViewport&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.SetGamma(System.Single)] Missing &lt;param name=&quot;gamma&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.SetUseLinearWorkflowGamma(System.Boolean)] Missing &lt;param name=&quot;useLinearWorkflowGamma&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.SetView(Rhino.DocObjects.ViewInfo)] Missing &lt;param name=&quot;view&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.ShowCaptureProgress] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.ShowCaptureProgress] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;w&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;h&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;view&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;viewportInfo&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;forCapture&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.StartRenderer(System.UInt32,System.UInt32,Rhino.RhinoDoc,Rhino.DocObjects.ViewInfo,Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Render.RenderWindow)] Missing &lt;param name=&quot;renderWindow&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RealtimeDisplayMode.DisplayPipelineSettingsChangedEventArgs] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RealtimeDisplayMode.DisplayPipelineSettingsChangedEventArgs.#ctor(Rhino.Display.DisplayPipelineAttributes)] Missing &lt;param name=&quot;dpa&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.RealtimeDisplayMode.DisplayPipelineSettingsChangedEventArgs.Attributes] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8177,20 +8123,22 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScal
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.V6DocObjects] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;param name=&quot;aob&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12314 topic(s)
-  6407 warning(s)
+  Processed 12313 topic(s)
+  6353 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+  SaveComponent: Waiting for the document writer task to finish (39 Help1 API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (39 Website API file(s) remaining)...
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:49.44
-    Last step completed in 00:03:49.6186
+Time Elapsed 00:03:55.29
+    Last step completed in 00:03:55.4978
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1190
+    Last step completed in 00:00:00.1110
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8202,17 +8150,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12314 HTML files
+Processed 12313 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12314 HTML files
+Processed 12313 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:28.8238
+    Last step completed in 00:00:27.4674
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8353,7 +8301,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.8048
+    Last step completed in 00:00:01.8348
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8361,11 +8309,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2020
+    Last step completed in 00:00:00.1990
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8380,13 +8328,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 2 minutes, 2 seconds
+  Compile time: 2 minutes, 3 seconds
   
-  12,316	Topics
+  12,315	Topics
   
-  174,792	Local links
+  174,781	Local links
   
-  39,583	Internet links
+  39,581	Internet links
   
   0	Graphics
   
@@ -8394,22 +8342,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,722,210 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,725,780 bytes
   
-  Compression decreased file by 106,155,974 bytes.
+  Compression decreased file by 106,144,033 bytes.
   
-    Last step completed in 00:02:04.5005
+    Last step completed in 00:02:39.0673
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:37.8832
+</plugIn>    Last step completed in 00:00:39.5720
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8444,16 +8392,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15003 files for the website content
-    Last step completed in 00:00:13.2033
+Copied 15002 files for the website content
+    Last step completed in 00:00:16.6225
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:18.3172
+    Last step completed in 00:00:24.6557
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/6/2016 5:07:14 AM.  Total time: 00:08:07.5864
+Build completed successfully at 10/6/2016 12:25:19 PM.  Total time: 00:08:58.8799
 
 </buildStep>
 </shfbBuild>
