@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="10/20/2016 9:31:23 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="10/21/2016 5:21:28 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0510
+</plugIn>    Last step completed in 00:00:00.0470
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1310
+    Last step completed in 00:00:00.1220
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 10/20/2016 9:31:26 PM.
+Build started 10/21/2016 5:21:31 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:04.86
-    Last step completed in 00:00:05.1075
+Time Elapsed 00:00:04.85
+    Last step completed in 00:00:05.0985
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 10/20/2016 9:31:31 PM.
+Build started 10/21/2016 5:21:36 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -1712,12 +1712,12 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:22.59
-    Last step completed in 00:00:22.7177
+Time Elapsed 00:00:22.95
+    Last step completed in 00:00:23.0827
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8609
+    Last step completed in 00:00:00.8669
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -1731,7 +1731,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 10/20/2016 9:31:55 PM.
+Build started 10/21/2016 5:22:00 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1742,14 +1742,14 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:01.16
+Time Elapsed 00:00:01.18
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3309
+    Last step completed in 00:00:01.3609
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8569
+    Last step completed in 00:00:00.8419
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1762,7 +1762,7 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 10/20/2016 9:31:57 PM.
+Build started 10/21/2016 5:22:02 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -8143,12 +8143,12 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:03:52.48
-    Last step completed in 00:03:52.6634
+Time Elapsed 00:03:55.57
+    Last step completed in 00:03:55.7954
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1180
+    Last step completed in 00:00:00.1240
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8170,7 +8170,7 @@ Processed 12363 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:27.7422
+    Last step completed in 00:00:30.4478
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8311,7 +8311,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7910
+    Last step completed in 00:00:01.7828
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8323,7 +8323,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1970
+    Last step completed in 00:00:00.2040
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8338,7 +8338,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 2 minutes, 3 seconds
+  Compile time: 2 minutes, 4 seconds
   
   12,365	Topics
   
@@ -8352,11 +8352,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,782,634 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,782,602 bytes
   
-  Compression decreased file by 106,552,033 bytes.
+  Compression decreased file by 106,552,065 bytes.
   
-    Last step completed in 00:02:05.3860
+    Last step completed in 00:02:06.0772
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -8367,7 +8367,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:38.2000
+</plugIn>    Last step completed in 00:00:37.0627
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8403,15 +8403,15 @@ Copied 14000 files
 Copied 14500 files
 Copied 15000 files
 Copied 15062 files for the website content
-    Last step completed in 00:00:18.1952
+    Last step completed in 00:00:13.7894
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:17.8746
+    Last step completed in 00:00:15.2837
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/20/2016 9:39:39 PM.  Total time: 00:08:16.1600
+Build completed successfully at 10/21/2016 5:29:43 AM.  Total time: 00:08:14.8795
 
 </buildStep>
 </shfbBuild>
