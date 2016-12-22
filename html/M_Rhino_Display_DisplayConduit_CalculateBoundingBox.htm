@@ -83,7 +83,7 @@
       <span class="highlight-comment">// dynamically drawing geometry would get clipped.</span>
 
       <span class="highlight-comment">// Union the mesh's bbox with the scene's bounding box</span>
-      e.BoundingBox.Union(m_bbox);
+      e.IncludeBoundingBox(m_bbox);
     }
 
     <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> PreDrawObjects(DrawEventArgs e)
@@ -177,7 +177,7 @@
       <span class="highlight-comment">' dynamically drawing geometry would get clipped.</span>
 
       <span class="highlight-comment">' Union the mesh's bbox with the scene's bounding box</span>
-      e.BoundingBox.Union(_bbox)
+      e.IncludeBoundingBox(_bbox)
     <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
 
     <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> PreDrawObjects(e <span class="highlight-keyword">As</span> DrawEventArgs)
@@ -235,7 +235,7 @@
 
   <span class="highlight-keyword">def</span> CalculateBoundingBox(self, calculateBoundingBoxEventArgs):
     <span class="highlight-comment">#super.CalculateBoundingBox(calculateBoundingBoxEventArgs)</span>
-    calculateBoundingBoxEventArgs.BoundingBox.Union(self.bbox)
+    calculateBoundingBoxEventArgs.IncludeBoundingBox(self.bbox)
 
   <span class="highlight-keyword">def</span> PreDrawObjects(self, drawEventArgs):
     <span class="highlight-comment">#base.PreDrawObjects(rawEventArgs)</span>

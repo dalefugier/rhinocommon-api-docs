@@ -9,9 +9,11 @@
               300 = A beta build, such as a wip.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_LicenseStatus_CheckOutExpirationDate.htm">CheckOutExpirationDate</a></td><td><div class="summary">
             The date and time the checked out license will expire.
-            Note, this is only set if m_license_type = LicenceType.Standalone
-            and if "limited license checkout" was enabled on the Zoo server.
+            Note, this is only set if m_license_type = Standalone or CloudZoo
+            and if "limited license checkout" was enabled on the Zoo server in the case of Standalone.
             Note, date and time is in local time coordinates.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_LicenseStatus_CloudZooLeaseIsValid.htm">CloudZooLeaseIsValid</a></td><td><div class="summary">
+            Returns true if the Cloud Zoo Lease represented by this instance is actively being managed by the Cloud Zoo Manager; else returns false.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_LicenseStatus_ExpirationDate.htm">ExpirationDate</a></td><td><div class="summary">
             The date and time the license will expire.
             This value can be null if:
