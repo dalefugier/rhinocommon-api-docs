@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="12/22/2016 9:17:44 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="12/22/2016 11:50:56 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0500
+</plugIn>    Last step completed in 00:00:00.0550
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1400
+    Last step completed in 00:00:00.1430
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/22/2016 9:17:47 AM.
+Build started 12/22/2016 11:50:59 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 31 namespaces, 881 types, and 11147 members
+  Wrote information on 31 namespaces, 881 types, and 11144 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:04.85
-    Last step completed in 00:00:05.1070
+Time Elapsed 00:00:04.86
+    Last step completed in 00:00:05.0800
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 12/22/2016 9:17:52 AM.
+Build started 12/22/2016 11:51:04 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -1543,7 +1543,6 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderPrimitiveList_Add_3 generated for M:Rhino.Render.RenderPrimitiveList.Add(Rhino.Geometry.PlaneSurface,Rhino.Render.RenderMaterial)
     Unique name M_Rhino_Render_RenderPrimitiveList_Add_4 generated for M:Rhino.Render.RenderPrimitiveList.Add(Rhino.Geometry.Sphere,Rhino.Render.RenderMaterial)
     Unique name M_Rhino_Render_RenderSettings__ctor_1 generated for M:Rhino.Render.RenderSettings.#ctor(Rhino.Render.RenderSettings)
-    Unique name M_Rhino_Render_RenderSettings_Dispose_1 generated for M:Rhino.Render.RenderSettings.Dispose(System.Boolean)
     Unique name M_Rhino_Render_RenderTexture_CreateEvaluator_1 generated for M:Rhino.Render.RenderTexture.CreateEvaluator(Rhino.Render.RenderTexture.TextureEvaluatorFlags)
     Unique name M_Rhino_Render_RenderTexture_SetDisplayInViewport_1 generated for M:Rhino.Render.RenderTexture.SetDisplayInViewport(System.Boolean,Rhino.Render.RenderContent.ChangeContexts)
     Unique name M_Rhino_Render_RenderTexture_SetEnvironmentMappingMode_1 generated for M:Rhino.Render.RenderTexture.SetEnvironmentMappingMode(Rhino.Render.TextureEnvironmentMappingMode,Rhino.Render.RenderContent.ChangeContexts)
@@ -1731,17 +1730,17 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:23.06
-    Last step completed in 00:00:23.1830
+Time Elapsed 00:00:23.13
+    Last step completed in 00:00:23.2780
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8900
+    Last step completed in 00:00:00.8860
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -1750,7 +1749,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/22/2016 9:18:16 AM.
+Build started 12/22/2016 11:51:28 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1761,14 +1760,14 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:01.19
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3580
+    Last step completed in 00:00:01.3590
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8090
+    Last step completed in 00:00:00.8350
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1781,7 +1780,7 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 12/22/2016 9:18:18 AM.
+Build started 12/22/2016 11:51:30 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -3349,7 +3348,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.DimensionSt
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.DimensionStyle.ToleranceUpperValue] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.DimensionStyle.ToleranceZeroSuppress] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.DimensionStyle.ZeroSuppress] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.EarthAnchorPoint.GetEarthAnchorPlane(Rhino.Geometry.Vector3d@)] Missing &lt;param name=&quot;anchor_north&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.EarthAnchorPoint.GetEarthAnchorPlane(Rhino.Geometry.Vector3d@)] Missing &lt;param name=&quot;anchorNorth&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.DocObjects.ExtrusionObject] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.ExtrusionObject.DuplicateExtrusionGeometry] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.ExtrusionObject.DuplicateExtrusionGeometry] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -7069,7 +7068,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderPrimitive
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderPrimitiveList.SetInstanceTransform(System.Int32,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;xform&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderPrimitiveList.TryGetCone(System.Int32,Rhino.Geometry.Cone@,Rhino.Geometry.Plane@)] Missing &lt;param name=&quot;truncation&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderPrimitiveType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderSettings.#ctor(Rhino.Render.RenderSettings)] Missing &lt;param name=&quot;source&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderTabs] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderTabs.SessionIdFromTab(System.Object)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderTabs.SessionIdFromTab(System.Object)] Missing &lt;param name=&quot;tab&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8403,20 +8401,20 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScal
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.V6DocObjects] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;param name=&quot;aob&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12574 topic(s)
-  6614 warning(s)
+  Processed 12570 topic(s)
+  6613 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:54.92
-    Last step completed in 00:03:55.0970
+Time Elapsed 00:03:56.30
+    Last step completed in 00:03:56.5070
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1220
+    Last step completed in 00:00:00.1320
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8428,17 +8426,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12574 HTML files
+Processed 12570 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12574 HTML files
+Processed 12570 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:29.3068
+    Last step completed in 00:00:27.4358
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8579,7 +8577,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7570
+    Last step completed in 00:00:01.8280
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8587,11 +8585,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2060
+    Last step completed in 00:00:00.2070
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8608,11 +8606,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 2 minutes, 5 seconds
   
-  12,576	Topics
+  12,572	Topics
   
-  178,056	Local links
+  178,077	Local links
   
-  40,475	Internet links
+  40,466	Internet links
   
   0	Graphics
   
@@ -8620,11 +8618,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 13,004,632 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 12,997,828 bytes
   
-  Compression decreased file by 108,273,754 bytes.
+  Compression decreased file by 108,264,254 bytes.
   
-    Last step completed in 00:02:07.5152
+    Last step completed in 00:02:08.7568
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -8635,7 +8633,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:39.2196
+</plugIn>    Last step completed in 00:00:39.8360
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8670,16 +8668,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15310 files for the website content
-    Last step completed in 00:00:46.9077
+Copied 15304 files for the website content
+    Last step completed in 00:00:19.9486
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:15.3929
+    Last step completed in 00:00:17.8283
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/22/2016 9:26:33 AM.  Total time: 00:08:49.7088
+Build completed successfully at 12/22/2016 11:59:23 PM.  Total time: 00:08:26.6735
 
 </buildStep>
 </shfbBuild>
