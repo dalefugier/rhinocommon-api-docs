@@ -6,9 +6,13 @@
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_CanBeEdited.htm">CanBeEdited</a></td><td><div class="summary">
             Determines if the content can be edited.
             </div> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_ChildSlotName.htm">ChildSlotName</a></td><td> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_CppPointer.htm">CppPointer</a></td><td> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Document.htm">Document</a></td><td><div class="summary">
-            Get the document this content belongs to or null if the content has not
-            yet been added to a document.  This will be null when content is
-            generated for browsers or preview generation.
+            If this content is in a document content list, the document will be returned.  Otherwise null.
+            </div> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_DocumentAssoc.htm">DocumentAssoc</a></td><td><div class="summary">
+            If this content is associated by a document in any way, the document will be returned.  This includes copies of
+            contents that were initially in the document. Otherwise null.
+            </div> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_DocumentRegistered.htm">DocumentRegistered</a></td><td><div class="summary">
+            If this content is used by a document, including not in the content lists (for example, as a decal),
+            the document will be returned.  Otherwise null.
             </div> (Inherited from <a href="T_Rhino_Render_RenderContent.htm">RenderContent</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Fields.htm">Fields</a></td><td><div class="summary">
             Rhino.Render.Fields FieldDictionary which provides access to setting
             and retrieving field values.
