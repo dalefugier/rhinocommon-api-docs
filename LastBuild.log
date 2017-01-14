@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="1/13/2017 12:16:54 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="1/14/2017 4:11:10 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0340
+</plugIn>    Last step completed in 00:00:00.0480
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1360
+    Last step completed in 00:00:00.1470
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 1/13/2017 12:16:57 AM.
+Build started 1/14/2017 4:11:14 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 31 namespaces, 885 types, and 11240 members
+  Wrote information on 31 namespaces, 888 types, and 11264 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:05.04
-    Last step completed in 00:00:05.2810
+Time Elapsed 00:00:05.03
+    Last step completed in 00:00:05.2585
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 1/13/2017 12:17:02 AM.
+Build started 1/14/2017 4:11:19 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -1506,8 +1506,12 @@ TransformManifest:
     Unique name M_Rhino_PlugIns_LicenseData__ctor_3 generated for M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)
     Unique name M_Rhino_PlugIns_LicenseData__ctor_4 generated for M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})
     Unique name M_Rhino_PlugIns_LicenseData__ctor_5 generated for M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)
+    Unique name M_Rhino_PlugIns_LicenseData__ctor_6 generated for M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon,System.Boolean,System.Boolean)
     Unique name M_Rhino_PlugIns_LicenseData_IsValid_1 generated for M:Rhino.PlugIns.LicenseData.IsValid(Rhino.PlugIns.LicenseData)
+    Unique name M_Rhino_PlugIns_LicenseData_IsValid_2 generated for M:Rhino.PlugIns.LicenseData.IsValid(System.Boolean)
     Unique name M_Rhino_PlugIns_LicenseLease__ctor_1 generated for M:Rhino.PlugIns.LicenseLease.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.DateTime)
+    Unique name M_Rhino_PlugIns_LicenseUtils_AskUserForLicense_1 generated for M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.String,System.String,System.Guid)
+    Unique name M_Rhino_PlugIns_LicenseUtils_GetLicense_1 generated for M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)
     Unique name M_Rhino_PlugIns_PlugIn_Find_1 generated for M:Rhino.PlugIns.PlugIn.Find(System.Reflection.Assembly)
     Unique name M_Rhino_PlugIns_PlugIn_GetInstalledPlugInNames_1 generated for M:Rhino.PlugIns.PlugIn.GetInstalledPlugInNames(Rhino.PlugIns.PlugInType,System.Boolean,System.Boolean)
     Unique name M_Rhino_PlugIns_PlugIn_GetLicense_1 generated for M:Rhino.PlugIns.PlugIn.GetLicense(Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)
@@ -1736,12 +1740,12 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:23.41
-    Last step completed in 00:00:23.5380
+Time Elapsed 00:00:23.32
+    Last step completed in 00:00:23.4443
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.9010
+    Last step completed in 00:00:00.9119
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -1755,7 +1759,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 1/13/2017 12:17:27 AM.
+Build started 1/14/2017 4:11:43 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1766,14 +1770,14 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:01.19
+Time Elapsed 00:00:01.23
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3600
+    Last step completed in 00:00:01.4039
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8140
+    Last step completed in 00:00:00.8539
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1781,12 +1785,12 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0280
+    Last step completed in 00:00:00.0270
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 1/13/2017 12:17:29 AM.
+Build started 1/14/2017 4:11:46 AM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -2364,6 +2368,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.IsInstallatio
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.IsInstallationEvaluation(Rhino.ApplicationSettings.Installation)] Missing &lt;param name=&quot;licenseType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.MainWindow] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.MainWindowHandle] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.RefreshRhinoLicense] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.ReleaseMouseCapture] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.RunMenuScript(System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.RhinoApp.RunScript(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6457,36 +6462,15 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.FileTypeList.A
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.FileTypeList.AddFileType(System.String,System.String,System.String)] Missing &lt;param name=&quot;description&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.FileTypeList.AddFileType(System.String,System.String,System.String)] Missing &lt;param name=&quot;extension1&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.FileTypeList.AddFileType(System.String,System.String,System.String)] Missing &lt;param name=&quot;extension2&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;productLicense&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;licenseTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType)] Missing &lt;param name=&quot;productLicense&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType)] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType)] Missing &lt;param name=&quot;licenseTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType)] Missing &lt;param name=&quot;buildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)] Missing &lt;param name=&quot;productLicense&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)] Missing &lt;param name=&quot;licenseTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)] Missing &lt;param name=&quot;buildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32)] Missing &lt;param name=&quot;licenseCount&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;productLicense&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;licenseTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;buildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;licenseCount&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime})] Missing &lt;param name=&quot;expirationDate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;productLicense&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;licenseTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;buildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;licenseCount&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;expirationDate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.#ctor(System.String,System.String,System.String,Rhino.PlugIns.LicenseBuildType,System.Int32,System.Nullable{System.DateTime},System.Drawing.Icon)] Missing &lt;param name=&quot;productIcon&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsNotValid(Rhino.PlugIns.LicenseData)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsNotValid(Rhino.PlugIns.LicenseData)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid(Rhino.PlugIns.LicenseData)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid(Rhino.PlugIns.LicenseData)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid(System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid(System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseData.IsValid(System.Boolean)] Missing &lt;param name=&quot;ignoreExpirationDate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.PlugIns.LicenseData.LicenseExpires] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseLease.#ctor(System.IntPtr)] Missing &lt;param name=&quot;unmanagedPointer&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseLease.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.DateTime)] Missing &lt;param name=&quot;ProductId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseLease.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.DateTime)] Missing &lt;param name=&quot;GroupName&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6515,6 +6499,19 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.LicenseLeaseCh
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseLeaseChangedEventArgs.#ctor(Rhino.PlugIns.LicenseLease)] Missing &lt;param name=&quot;lease&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseLeaseChangedEventArgs.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.PlugIns.LicenseLeaseChangedEventArgs.Lease] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;productType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;standAlone&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;parentWindow&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;textMask&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;validateProductKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;onLeaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;verifyLicenseKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;verifyPreviousVersionLicenseKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_path&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_title&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_id&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.String,System.String,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;productType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.AskUserForLicense(System.Int32,System.Boolean,System.Object,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;standAlone&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6529,6 +6526,18 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.D
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.DeleteLicense(System.Guid)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.Echo(System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.Echo(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;validateProductKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;leaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;verifyLicenseKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;verifyPreviousVersionLicenseKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_type&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;capabilities&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;textMask&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_path&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_title&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,Rhino.PlugIns.VerifyLicenseKeyDelegate,Rhino.PlugIns.VerifyPreviousVersionLicenseDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;product_id&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;validateProductKeyDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid)] Missing &lt;param name=&quot;leaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6551,7 +6560,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.L
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LicenseOptionsHandler(System.Guid,System.String,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LicenseOptionsHandler(System.Guid,System.String,System.Boolean)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LicenseOptionsHandler(System.Guid,System.String,System.Boolean)] Missing &lt;param name=&quot;productTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LicenseOptionsHandler(System.Guid,System.String,System.Boolean)] Missing &lt;param name=&quot;bStandalone&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LicenseOptionsHandler(System.Guid,System.String,System.Boolean)] Missing &lt;param name=&quot;standAlone&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LoginToCloudZoo] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.LogoutOfCloudZoo] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ReturnLicense(System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6560,9 +6569,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.S
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowBuyLicenseUi(System.Guid)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowLicenseValidationUi(System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowLicenseValidationUi(System.String)] Missing &lt;param name=&quot;cdkey&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;param name=&quot;mode&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;param name=&quot;result&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;param name=&quot;mode&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.LicenseUtils.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;param name=&quot;result&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.LoadReturnCode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.OnLeaseChangedDelegate] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.PlugIn] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6585,8 +6594,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetInst
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetInstalledPlugInNames] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetInstalledPlugIns] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetInstalledPlugIns] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetLicense(Rhino.PlugIns.LicenseBuildType,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;leaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetLicense(Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;leaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetLicenseOwner(System.String@,System.String@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetLicenseOwner(System.String@,System.String@)] Missing &lt;param name=&quot;registeredOwner&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.PlugIn.GetLicenseOwner(System.String@,System.String@)] Missing &lt;param name=&quot;registeredOrganization&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -6686,7 +6693,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.RenderPlugIn.R
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.PlugIns.RenderPlugIn.RenderWindow(Rhino.RhinoDoc,Rhino.Commands.RunMode,System.Boolean,Rhino.Display.RhinoView,System.Drawing.Rectangle,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;blowup&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.RenderPlugIn.PreviewRenderTypes] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.RenderPlugIn.RenderFeature] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.SetLeaseDelegate] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.VerifyLicenseKeyDelegate] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.PlugIns.WriteFileResult] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.PrivateMeshCommands.MeshTypes] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Render] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -7748,19 +7755,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Interop.ViewCa
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Interop.ViewCaptureFromPointer(System.IntPtr)] Missing &lt;param name=&quot;ptrViewCapture&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IPlatformServiceLocator.GetService``1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IPlatformServiceLocator.GetService``1] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Runtime.IZooClientUtilities] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productPath&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;licenseType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;parentWindow&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productBuildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;textMask&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;validateDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,System.String,Rhino.Runtime.LicenseTypes,System.Object,System.Guid,System.Int32,System.String,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;onLeaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.AskUserForLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;parameters&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.CheckInLicense(System.Object,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.CheckInLicense(System.Object,System.Guid)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.CheckInLicense(System.Object,System.Guid)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -7777,17 +7775,11 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtil
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.Echo(System.Object,System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.Echo(System.Object,System.String)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.Echo(System.Object,System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productPath&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productBuildType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;productTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;licenseCapabilities&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;textMask&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;validateDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,System.String,System.Guid,System.Int32,System.String,Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)] Missing &lt;param name=&quot;leaseChangedDelegate&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetCurrentTime] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicense(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;parameters&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicenseStatus(System.Object)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicenseStatus(System.Object)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.GetLicenseType(System.Object,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -7806,12 +7798,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtil
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.Initialize(System.Object)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.IsCheckOutEnabled(System.Object)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.IsCheckOutEnabled(System.Object)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;param name=&quot;productId&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;param name=&quot;productTitle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,System.Guid,System.String,Rhino.Runtime.LicenseTypes)] Missing &lt;param name=&quot;licenseType&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.LicenseOptionsHandler(System.Object,Rhino.Runtime.ZooClientParameters)] Missing &lt;param name=&quot;parameters&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ReturnLicense(System.Object,System.Guid)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ReturnLicense(System.Object,System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ReturnLicense(System.Object,System.Guid)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -7827,11 +7817,12 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtil
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowLicenseValidationUi(System.Object,System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowLicenseValidationUi(System.Object,System.String)] Missing &lt;param name=&quot;verify&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowLicenseValidationUi(System.Object,System.String)] Missing &lt;param name=&quot;cdkey&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;param name=&quot;mode&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(System.Int32,System.Int32@)] Missing &lt;param name=&quot;result&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Runtime.LicenseTypes] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;param name=&quot;mode&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.IZooClientUtilities.ShowRhinoExpiredMessage(Rhino.Runtime.Mode,System.Int32@)] Missing &lt;param name=&quot;result&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ZooClientParameters.VerifyLicenseKey(System.String,System.String,System.DateTime,System.Boolean,Rhino.PlugIns.LicenseData@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ZooClientParameters.VerifyPreviousVersionLicense(System.String,System.String,System.String@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Runtime.InteropWrappers] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.InteropWrappers.SimpleArrayDouble.#ctor(System.Collections.Generic.IEnumerable{System.Double})] Missing &lt;param name=&quot;items&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.InteropWrappers.SimpleArrayGeometryPointer.#ctor(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})] Missing &lt;param name=&quot;geometry&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8511,20 +8502,20 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScal
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.V6DocObjects] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.V6DocObjects.AnnotationObjectBase.AnnotationGeometry(Rhino.DocObjects.RhinoObject)] Missing &lt;param name=&quot;aob&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12683 topic(s)
-  6717 warning(s)
+  Processed 12710 topic(s)
+  6704 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:58.52
-    Last step completed in 00:03:58.7290
+Time Elapsed 00:03:57.84
+    Last step completed in 00:03:58.0486
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1210
+    Last step completed in 00:00:00.1440
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8536,17 +8527,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12683 HTML files
+Processed 12710 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12683 HTML files
+Processed 12710 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:30.4584
+    Last step completed in 00:00:30.9587
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8687,19 +8678,19 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7720
+    Last step completed in 00:00:01.7708
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2080
+    Last step completed in 00:00:00.2050
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8716,11 +8707,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 2 minutes, 7 seconds
   
-  12,685	Topics
+  12,712	Topics
   
-  180,831	Local links
+  181,118	Local links
   
-  40,703	Internet links
+  40,797	Internet links
   
   0	Graphics
   
@@ -8728,11 +8719,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 13,135,496 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 13,159,358 bytes
   
-  Compression decreased file by 109,360,420 bytes.
+  Compression decreased file by 109,571,354 bytes.
   
-    Last step completed in 00:02:09.1060
+    Last step completed in 00:02:09.5616
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -8743,7 +8734,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:38.4242
+</plugIn>    Last step completed in 00:00:41.1709
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8778,16 +8769,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15429 files for the website content
-    Last step completed in 00:00:17.5290
+Copied 15461 files for the website content
+    Last step completed in 00:00:18.7949
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:17.2210
+    Last step completed in 00:00:18.1758
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/13/2017 12:25:22 AM.  Total time: 00:08:27.9926
+Build completed successfully at 1/14/2017 4:19:44 AM.  Total time: 00:08:33.9334
 
 </buildStep>
 </shfbBuild>
