@@ -348,7 +348,7 @@
     <HelpKINode Title="MeshFaceList.AdjacentFaces Method " Url="html/M_Rhino_Geometry_Collections_MeshFaceList_AdjacentFaces.htm" />
   </HelpKINode>
   <HelpKINode Title="AdjustFromPoints method">
-    <HelpKINode Title="AngularDimension.AdjustFromPoints Method " Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension_AdjustFromPoints.htm" />
+    <HelpKINode Title="AngularDimension.AdjustFromPoints Method " Url="html/Overload_Rhino_Geometry_AngularDimension_AdjustFromPoints.htm" />
     <HelpKINode Title="OrdinateDimension.AdjustFromPoints Method " Url="html/M_Rhino_Geometry_OrdinateDimension_AdjustFromPoints.htm" />
     <HelpKINode Title="RadialDimension.AdjustFromPoints Method " Url="html/M_Rhino_Geometry_RadialDimension_AdjustFromPoints.htm" />
   </HelpKINode>
@@ -471,8 +471,8 @@
   <HelpKINode Title="AlternateUnitsDisplay property" Url="html/P_Rhino_DocObjects_DimensionStyle_AlternateUnitsDisplay.htm" />
   <HelpKINode Title="AlternateZeroSuppress property" Url="html/P_Rhino_DocObjects_DimensionStyle_AlternateZeroSuppress.htm" />
   <HelpKINode Title="Altitude property">
-    <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_GroundPlane_Altitude.htm" />
     <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Altitude.htm" />
+    <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_GroundPlane_Altitude.htm" />
     <HelpKINode Title="Sun.Altitude Property " Url="html/P_Rhino_Render_Sun_Altitude.htm" />
   </HelpKINode>
   <HelpKINode Title="AltitudeFromValues method" Url="html/M_Rhino_Render_Sun_AltitudeFromValues.htm" />
@@ -538,7 +538,7 @@
   <HelpKINode Title="AngleDomain property" Url="html/P_Rhino_Geometry_Arc_AngleDomain.htm" />
   <HelpKINode Title="AngleFormat enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="AngleFormat property">
-    <HelpKINode Title="AngularDimension.AngleFormat Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleFormat.htm" />
+    <HelpKINode Title="AngularDimension.AngleFormat Property " Url="html/P_Rhino_Geometry_AngularDimension_AngleFormat.htm" />
     <HelpKINode Title="DimensionStyle.AngleFormat Property " Url="html/P_Rhino_DocObjects_DimensionStyle_AngleFormat.htm" />
   </HelpKINode>
   <HelpKINode Title="AngleInDegrees method" Url="html/M_Rhino_Geometry_Cone_AngleInDegrees.htm" />
@@ -546,10 +546,10 @@
   <HelpKINode Title="AngleRadians property" Url="html/P_Rhino_Geometry_ArcCurve_AngleRadians.htm" />
   <HelpKINode Title="AngleResolution enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="AngleResolution property">
-    <HelpKINode Title="AngularDimension.AngleResolution Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleResolution.htm" />
+    <HelpKINode Title="AngularDimension.AngleResolution Property " Url="html/P_Rhino_Geometry_AngularDimension_AngleResolution.htm" />
     <HelpKINode Title="DimensionStyle.AngleResolution Property " Url="html/P_Rhino_DocObjects_DimensionStyle_AngleResolution.htm" />
   </HelpKINode>
-  <HelpKINode Title="AngleRoundoff property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleRoundoff.htm" />
+  <HelpKINode Title="AngleRoundoff property" Url="html/P_Rhino_Geometry_AngularDimension_AngleRoundoff.htm" />
   <HelpKINode Title="AngleToleranceRadians property">
     <HelpKINode Title="SweepOneRail.AngleToleranceRadians Property " Url="html/P_Rhino_Geometry_SweepOneRail_AngleToleranceRadians.htm" />
     <HelpKINode Title="SweepTwoRail.AngleToleranceRadians Property " Url="html/P_Rhino_Geometry_SweepTwoRail_AngleToleranceRadians.htm" />
@@ -558,45 +558,37 @@
   <HelpKINode Title="AngleUnitSystem enumeration" Url="html/T_Rhino_AngleUnitSystem.htm" />
   <HelpKINode Title="AngleZeroSuppress enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="AngleZeroSuppress property" Url="html/P_Rhino_DocObjects_DimensionStyle_AngleZeroSuppress.htm" />
-  <HelpKINode Title="AngleZeroSuppression property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleZeroSuppression.htm" />
+  <HelpKINode Title="AngleZeroSuppression property" Url="html/P_Rhino_Geometry_AngularDimension_AngleZeroSuppression.htm" />
   <HelpKINode Title="Angstroms enumeration member" Url="html/T_Rhino_UnitSystem.htm" />
   <HelpKINode Title="Angular enumeration member" Url="html/T_Rhino_Geometry_AnnotationType.htm" />
   <HelpKINode Title="Angular3pt enumeration member" Url="html/T_Rhino_Geometry_AnnotationType.htm" />
   <HelpKINode Title="AngularDimension class">
     <HelpKINode Title="AngularDimension Class" Url="html/T_Rhino_Geometry_AngularDimension.htm" />
-    <HelpKINode Title="AngularDimension Class" Url="html/T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
     <HelpKINode Title="about AngularDimension class" Url="html/T_Rhino_Geometry_AngularDimension.htm" />
-    <HelpKINode Title="about AngularDimension class" Url="html/T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_AngularDimension__ctor.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_AngularDimension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_AngularDimension.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_AngularDimension.htm" />
   </HelpKINode>
-  <HelpKINode Title="AngularDimension.AdjustFromPoints method" Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension_AdjustFromPoints.htm" />
-  <HelpKINode Title="AngularDimension.AngleFormat property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleFormat.htm" />
-  <HelpKINode Title="AngularDimension.AngleResolution property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleResolution.htm" />
-  <HelpKINode Title="AngularDimension.AngleRoundoff property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleRoundoff.htm" />
-  <HelpKINode Title="AngularDimension.AngleZeroSuppression property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_AngleZeroSuppression.htm" />
-  <HelpKINode Title="AngularDimension.AngularDimension constructor">
-    <HelpKINode Title="AngularDimension Constructor " Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension__ctor.htm" />
-    <HelpKINode Title="AngularDimension Constructor " Url="html/Overload_Rhino_Geometry_AngularDimension__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AngularDimension.ArrowPoint1 property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_ArrowPoint1.htm" />
-  <HelpKINode Title="AngularDimension.ArrowPoint2 property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_ArrowPoint2.htm" />
-  <HelpKINode Title="AngularDimension.CenterPoint property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_CenterPoint.htm" />
-  <HelpKINode Title="AngularDimension.Create method" Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension_Create.htm" />
-  <HelpKINode Title="AngularDimension.DefPoint1 property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DefPoint1.htm" />
-  <HelpKINode Title="AngularDimension.DefPoint2 property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DefPoint2.htm" />
-  <HelpKINode Title="AngularDimension.DimlinePoint property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DimlinePoint.htm" />
-  <HelpKINode Title="AngularDimension.Get3dPoints method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_Get3dPoints.htm" />
-  <HelpKINode Title="AngularDimension.GetAngleDisplayText method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetAngleDisplayText.htm" />
-  <HelpKINode Title="AngularDimension.GetDisplayLines method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetDisplayLines.htm" />
-  <HelpKINode Title="AngularDimension.GetTextRectangle method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetTextRectangle.htm" />
-  <HelpKINode Title="AngularDimension.GetTextTransform method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetTextTransform.htm" />
-  <HelpKINode Title="AngularDimension.Type property" Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_Type.htm" />
+  <HelpKINode Title="AngularDimension.AdjustFromPoints method" Url="html/Overload_Rhino_Geometry_AngularDimension_AdjustFromPoints.htm" />
+  <HelpKINode Title="AngularDimension.AngleFormat property" Url="html/P_Rhino_Geometry_AngularDimension_AngleFormat.htm" />
+  <HelpKINode Title="AngularDimension.AngleResolution property" Url="html/P_Rhino_Geometry_AngularDimension_AngleResolution.htm" />
+  <HelpKINode Title="AngularDimension.AngleRoundoff property" Url="html/P_Rhino_Geometry_AngularDimension_AngleRoundoff.htm" />
+  <HelpKINode Title="AngularDimension.AngleZeroSuppression property" Url="html/P_Rhino_Geometry_AngularDimension_AngleZeroSuppression.htm" />
+  <HelpKINode Title="AngularDimension.AngularDimension constructor" Url="html/Overload_Rhino_Geometry_AngularDimension__ctor.htm" />
+  <HelpKINode Title="AngularDimension.ArrowPoint1 property" Url="html/P_Rhino_Geometry_AngularDimension_ArrowPoint1.htm" />
+  <HelpKINode Title="AngularDimension.ArrowPoint2 property" Url="html/P_Rhino_Geometry_AngularDimension_ArrowPoint2.htm" />
+  <HelpKINode Title="AngularDimension.CenterPoint property" Url="html/P_Rhino_Geometry_AngularDimension_CenterPoint.htm" />
+  <HelpKINode Title="AngularDimension.Create method" Url="html/Overload_Rhino_Geometry_AngularDimension_Create.htm" />
+  <HelpKINode Title="AngularDimension.DefPoint1 property" Url="html/P_Rhino_Geometry_AngularDimension_DefPoint1.htm" />
+  <HelpKINode Title="AngularDimension.DefPoint2 property" Url="html/P_Rhino_Geometry_AngularDimension_DefPoint2.htm" />
+  <HelpKINode Title="AngularDimension.DimlinePoint property" Url="html/P_Rhino_Geometry_AngularDimension_DimlinePoint.htm" />
+  <HelpKINode Title="AngularDimension.Get3dPoints method" Url="html/M_Rhino_Geometry_AngularDimension_Get3dPoints.htm" />
+  <HelpKINode Title="AngularDimension.GetAngleDisplayText method" Url="html/M_Rhino_Geometry_AngularDimension_GetAngleDisplayText.htm" />
+  <HelpKINode Title="AngularDimension.GetDisplayLines method" Url="html/M_Rhino_Geometry_AngularDimension_GetDisplayLines.htm" />
+  <HelpKINode Title="AngularDimension.GetTextRectangle method" Url="html/M_Rhino_Geometry_AngularDimension_GetTextRectangle.htm" />
+  <HelpKINode Title="AngularDimension.GetTextTransform method" Url="html/M_Rhino_Geometry_AngularDimension_GetTextTransform.htm" />
+  <HelpKINode Title="AngularDimension.Type property" Url="html/P_Rhino_Geometry_AngularDimension_Type.htm" />
   <HelpKINode Title="AngularDimensionGeometry property" Url="html/P_Rhino_DocObjects_AngularDimensionObject_AngularDimensionGeometry.htm" />
   <HelpKINode Title="AngularDimensionObject class">
     <HelpKINode Title="AngularDimensionObject Class" Url="html/T_Rhino_DocObjects_AngularDimensionObject.htm" />
@@ -612,17 +604,17 @@
     <HelpKINode Title="ObjectType Enumeration" Url="html/T_Rhino_DocObjects_ObjectType.htm" />
   </HelpKINode>
   <HelpKINode Title="AnnotationBase class">
-    <HelpKINode Title="AnnotationBase Class" Url="html/T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
     <HelpKINode Title="AnnotationBase Class" Url="html/T_Rhino_Geometry_AnnotationBase.htm" />
+    <HelpKINode Title="AnnotationBase Class" Url="html/T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
     <HelpKINode Title="about AnnotationBase class" Url="html/T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
     <HelpKINode Title="about AnnotationBase class" Url="html/T_Rhino_Geometry_AnnotationBase.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_AnnotationBase__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_AnnotationBase__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_AnnotationBase__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_AnnotationBase.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_AnnotationBase.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_AnnotationBase.htm" />
   </HelpKINode>
   <HelpKINode Title="AnnotationBase.AnnotationBase constructor">
     <HelpKINode Title="AnnotationBase Constructor " Url="html/Overload_Rhino_Geometry_AnnotationBase__ctor.htm" />
@@ -659,8 +651,8 @@
   <HelpKINode Title="AnnotationBase.SetOverrideDimStyle method" Url="html/M_Rhino_Geometry_V6Annotation_AnnotationBase_SetOverrideDimStyle.htm" />
   <HelpKINode Title="AnnotationBase.SetRichText method" Url="html/M_Rhino_Geometry_V6Annotation_AnnotationBase_SetRichText.htm" />
   <HelpKINode Title="AnnotationBase.Text property">
-    <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_AnnotationBase_Text.htm" />
     <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_Text.htm" />
+    <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_AnnotationBase_Text.htm" />
   </HelpKINode>
   <HelpKINode Title="AnnotationBase.TextFormula property" Url="html/P_Rhino_Geometry_AnnotationBase_TextFormula.htm" />
   <HelpKINode Title="AnnotationBase.TextHeight property">
@@ -1003,15 +995,15 @@
   <HelpKINode Title="ArrowColorSource enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="ArrowCopy enumeration member" Url="html/T_Rhino_UI_CursorStyle.htm" />
   <HelpKINode Title="Arrowhead class">
-    <HelpKINode Title="Arrowhead Class" Url="html/T_Rhino_Geometry_V6Annotation_Arrowhead.htm" />
-    <HelpKINode Title="about Arrowhead class" Url="html/T_Rhino_Geometry_V6Annotation_Arrowhead.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_Arrowhead__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_Arrowhead.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_Arrowhead.htm" />
+    <HelpKINode Title="Arrowhead Class" Url="html/T_Rhino_Geometry_Arrowhead.htm" />
+    <HelpKINode Title="about Arrowhead class" Url="html/T_Rhino_Geometry_Arrowhead.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_Arrowhead__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Arrowhead.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Arrowhead.htm" />
   </HelpKINode>
-  <HelpKINode Title="Arrowhead.Arrowhead constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_Arrowhead__ctor.htm" />
-  <HelpKINode Title="Arrowhead.ArrowType property" Url="html/P_Rhino_Geometry_V6Annotation_Arrowhead_ArrowType.htm" />
-  <HelpKINode Title="Arrowhead.BlockId property" Url="html/P_Rhino_Geometry_V6Annotation_Arrowhead_BlockId.htm" />
+  <HelpKINode Title="Arrowhead.Arrowhead constructor" Url="html/Overload_Rhino_Geometry_Arrowhead__ctor.htm" />
+  <HelpKINode Title="Arrowhead.ArrowType property" Url="html/P_Rhino_Geometry_Arrowhead_ArrowType.htm" />
+  <HelpKINode Title="Arrowhead.BlockId property" Url="html/P_Rhino_Geometry_Arrowhead_BlockId.htm" />
   <HelpKINode Title="Arrowhead1End property" Url="html/P_Rhino_Geometry_LinearDimension_Arrowhead1End.htm" />
   <HelpKINode Title="Arrowhead2End property" Url="html/P_Rhino_Geometry_LinearDimension_Arrowhead2End.htm" />
   <HelpKINode Title="ArrowHeadLength property" Url="html/P_Rhino_UI_Gumball_GumballAppearanceSettings_ArrowHeadLength.htm" />
@@ -1022,16 +1014,16 @@
   <HelpKINode Title="ArrowPlotColor enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="ArrowPlotColorSource enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="ArrowPoint1 property">
-    <HelpKINode Title="AngularDimension.ArrowPoint1 Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_ArrowPoint1.htm" />
+    <HelpKINode Title="AngularDimension.ArrowPoint1 Property " Url="html/P_Rhino_Geometry_AngularDimension_ArrowPoint1.htm" />
     <HelpKINode Title="LinearDimension.ArrowPoint1 Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_ArrowPoint1.htm" />
   </HelpKINode>
   <HelpKINode Title="ArrowPoint2 property">
-    <HelpKINode Title="AngularDimension.ArrowPoint2 Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_ArrowPoint2.htm" />
+    <HelpKINode Title="AngularDimension.ArrowPoint2 Property " Url="html/P_Rhino_Geometry_AngularDimension_ArrowPoint2.htm" />
     <HelpKINode Title="LinearDimension.ArrowPoint2 Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_ArrowPoint2.htm" />
   </HelpKINode>
   <HelpKINode Title="Arrowsize enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="ArrowSize property" Url="html/P_Rhino_Geometry_Dimension_ArrowSize.htm" />
-  <HelpKINode Title="ArrowType property" Url="html/P_Rhino_Geometry_V6Annotation_Arrowhead_ArrowType.htm" />
+  <HelpKINode Title="ArrowType property" Url="html/P_Rhino_Geometry_Arrowhead_ArrowType.htm" />
   <HelpKINode Title="ArrowType1 enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="ArrowType1 property" Url="html/P_Rhino_DocObjects_DimensionStyle_ArrowType1.htm" />
   <HelpKINode Title="ArrowType2 enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
@@ -1480,7 +1472,7 @@
   <HelpKINode Title="BlendTo method" Url="html/M_Rhino_Display_Color4f_BlendTo.htm" />
   <HelpKINode Title="BlendType enumeration" Url="html/T_Rhino_Geometry_BlendType.htm" />
   <HelpKINode Title="Block enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_LeaderContentType.htm" />
-  <HelpKINode Title="BlockId property" Url="html/P_Rhino_Geometry_V6Annotation_Arrowhead_BlockId.htm" />
+  <HelpKINode Title="BlockId property" Url="html/P_Rhino_Geometry_Arrowhead_BlockId.htm" />
   <HelpKINode Title="Blue enumeration member" Url="html/T_Rhino_Render_RenderWindow_StandardChannels.htm" />
   <HelpKINode Title="Bold enumeration member" Url="html/T_Rhino_DocObjects_Font_FontWeight.htm" />
   <HelpKINode Title="Bold property">
@@ -2172,7 +2164,7 @@
   <HelpKINode Title="CenterOfEarth enumeration member" Url="html/T_Rhino_DocObjects_BasepointZero.htm" />
   <HelpKINode Title="CenterPoint method" Url="html/M_Rhino_Geometry_Polyline_CenterPoint.htm" />
   <HelpKINode Title="CenterPoint property">
-    <HelpKINode Title="AngularDimension.CenterPoint Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_CenterPoint.htm" />
+    <HelpKINode Title="AngularDimension.CenterPoint Property " Url="html/P_Rhino_Geometry_AngularDimension_CenterPoint.htm" />
     <HelpKINode Title="RadialDimension.CenterPoint Property " Url="html/P_Rhino_Geometry_RadialDimension_CenterPoint.htm" />
   </HelpKINode>
   <HelpKINode Title="CenterVertex property" Url="html/P_Rhino_Geometry_SubDVertexSectorIterator_CenterVertex.htm" />
@@ -2839,7 +2831,7 @@
   <HelpKINode Title="ColorXYZ.Z property" Url="html/P_Rhino_Display_ColorXYZ_Z.htm" />
   <HelpKINode Title="ColorY property" Url="html/P_Rhino_UI_Gumball_GumballAppearanceSettings_ColorY.htm" />
   <HelpKINode Title="ColorZ property" Url="html/P_Rhino_UI_Gumball_GumballAppearanceSettings_ColorZ.htm" />
-  <HelpKINode Title="Column enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Column enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="ColumnCount property" Url="html/P_Rhino_Geometry_Matrix_ColumnCount.htm" />
   <HelpKINode Title="CombineEditors method" Url="html/M_Rhino_Render_SupportOptions_CombineEditors.htm" />
   <HelpKINode Title="CombineIdentical method" Url="html/M_Rhino_Geometry_Collections_MeshVertexList_CombineIdentical.htm" />
@@ -3360,7 +3352,7 @@
   <HelpKINode Title="ContentReplacing event" Url="html/E_Rhino_Render_RenderContent_ContentReplacing.htm" />
   <HelpKINode Title="ContentSelection property" Url="html/P_Rhino_UI_Controls_DataSource_ProviderIds_ContentSelection.htm" />
   <HelpKINode Title="ContentType property">
-    <HelpKINode Title="Leader.ContentType Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_ContentType.htm" />
+    <HelpKINode Title="Leader.ContentType Property " Url="html/P_Rhino_Geometry_Leader_ContentType.htm" />
     <HelpKINode Title="RenderContentSerializer.ContentType Property " Url="html/P_Rhino_Render_RenderContentSerializer_ContentType.htm" />
   </HelpKINode>
   <HelpKINode Title="ContentTypeId property" Url="html/P_Rhino_Render_CreatePreviewEventArgs_ContentTypeId.htm" />
@@ -3599,13 +3591,13 @@
   <HelpKINode Title="CreaseEdges enumeration" Url="html/T_Rhino_PrivateMeshCommands_MeshTypes_CreaseEdges.htm" />
   <HelpKINode Title="Create event" Url="html/E_Rhino_Display_RhinoView_Create.htm" />
   <HelpKINode Title="Create method">
-    <HelpKINode Title="AngularDimension.Create Method " Url="html/Overload_Rhino_Geometry_V6Annotation_AngularDimension_Create.htm" />
+    <HelpKINode Title="AngularDimension.Create Method " Url="html/Overload_Rhino_Geometry_AngularDimension_Create.htm" />
     <HelpKINode Title="Centermark.Create Method " Url="html/M_Rhino_Geometry_Centermark_Create.htm" />
     <HelpKINode Title="Decal.Create Method " Url="html/M_Rhino_Render_Decal_Create.htm" />
     <HelpKINode Title="Extrusion.Create Method " Url="html/M_Rhino_Geometry_Extrusion_Create.htm" />
     <HelpKINode Title="FilePdf.Create Method " Url="html/M_Rhino_FileIO_FilePdf_Create.htm" />
     <HelpKINode Title="Hatch.Create Method " Url="html/Overload_Rhino_Geometry_Hatch_Create.htm" />
-    <HelpKINode Title="Leader.Create Method " Url="html/M_Rhino_Geometry_V6Annotation_Leader_Create.htm" />
+    <HelpKINode Title="Leader.Create Method " Url="html/M_Rhino_Geometry_Leader_Create.htm" />
     <HelpKINode Title="LengthValue.Create Method " Url="html/Overload_Rhino_LengthValue_Create.htm" />
     <HelpKINode Title="LinearDimension.Create Method " Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_Create.htm" />
     <HelpKINode Title="MaterialRefs.Create Method " Url="html/M_Rhino_DocObjects_MaterialRefs_Create.htm" />
@@ -4091,7 +4083,7 @@
     <HelpKINode Title="ObjRef.Curve Method " Url="html/M_Rhino_DocObjects_ObjRef_Curve.htm" />
   </HelpKINode>
   <HelpKINode Title="Curve property">
-    <HelpKINode Title="Leader.Curve Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_Curve.htm" />
+    <HelpKINode Title="Leader.Curve Property " Url="html/P_Rhino_Geometry_Leader_Curve.htm" />
     <HelpKINode Title="MorphControl.Curve Property " Url="html/P_Rhino_Geometry_MorphControl_Curve.htm" />
     <HelpKINode Title="RevSurface.Curve Property " Url="html/P_Rhino_Geometry_RevSurface_Curve.htm" />
     <HelpKINode Title="ShutLiningCurveInfo.Curve Property " Url="html/P_Rhino_Geometry_ShutLiningCurveInfo_Curve.htm" />
@@ -4615,8 +4607,8 @@
   <HelpKINode Title="Decals.Remove method" Url="html/M_Rhino_Render_Decals_Remove.htm" />
   <HelpKINode Title="Decimal enumeration member">
     <HelpKINode Title="DimensionStyle.LengthDisplayFormat Enumeration" Url="html/T_Rhino_DocObjects_DimensionStyle_LengthDisplayFormat.htm" />
-    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
     <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_UI_DistanceDisplayMode.htm" />
+    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
   </HelpKINode>
   <HelpKINode Title="DecimalDegrees enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_AngleDisplayFormat.htm" />
   <HelpKINode Title="Decimeters enumeration member" Url="html/T_Rhino_UnitSystem.htm" />
@@ -4701,11 +4693,11 @@
   </HelpKINode>
   <HelpKINode Title="DefPoint property" Url="html/P_Rhino_Geometry_OrdinateDimension_DefPoint.htm" />
   <HelpKINode Title="DefPoint1 property">
-    <HelpKINode Title="AngularDimension.DefPoint1 Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DefPoint1.htm" />
+    <HelpKINode Title="AngularDimension.DefPoint1 Property " Url="html/P_Rhino_Geometry_AngularDimension_DefPoint1.htm" />
     <HelpKINode Title="LinearDimension.DefPoint1 Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_DefPoint1.htm" />
   </HelpKINode>
   <HelpKINode Title="DefPoint2 property">
-    <HelpKINode Title="AngularDimension.DefPoint2 Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DefPoint2.htm" />
+    <HelpKINode Title="AngularDimension.DefPoint2 Property " Url="html/P_Rhino_Geometry_AngularDimension_DefPoint2.htm" />
     <HelpKINode Title="LinearDimension.DefPoint2 Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_DefPoint2.htm" />
   </HelpKINode>
   <HelpKINode Title="DegMinSec enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_AngleDisplayFormat.htm" />
@@ -5129,7 +5121,7 @@
   <HelpKINode Title="DimLinePlotWeightSource enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="DimLinePlotWeight_mm enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="DimlinePoint property">
-    <HelpKINode Title="AngularDimension.DimlinePoint Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_DimlinePoint.htm" />
+    <HelpKINode Title="AngularDimension.DimlinePoint Property " Url="html/P_Rhino_Geometry_AngularDimension_DimlinePoint.htm" />
     <HelpKINode Title="LinearDimension.DimlinePoint Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_DimlinePoint.htm" />
     <HelpKINode Title="RadialDimension.DimlinePoint Property " Url="html/P_Rhino_Geometry_RadialDimension_DimlinePoint.htm" />
   </HelpKINode>
@@ -5137,8 +5129,8 @@
   <HelpKINode Title="DimRadialPoint enumeration member" Url="html/T_Rhino_Geometry_ComponentIndexType.htm" />
   <HelpKINode Title="DimScale method" Url="html/M_Rhino_DocObjects_AnnotationObjectBase_DimScale.htm" />
   <HelpKINode Title="DimscaleSource enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
-  <HelpKINode Title="DimStyle enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
   <HelpKINode Title="Dimstyle enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
+  <HelpKINode Title="DimStyle enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
   <HelpKINode Title="DimStyles property">
     <HelpKINode Title="File3dm.DimStyles Property " Url="html/P_Rhino_FileIO_File3dm_DimStyles.htm" />
     <HelpKINode Title="RhinoDoc.DimStyles Property " Url="html/P_Rhino_RhinoDoc_DimStyles.htm" />
@@ -5654,8 +5646,8 @@
   <HelpKINode Title="DistanceBetweenArrowTips property" Url="html/P_Rhino_Geometry_LinearDimension_DistanceBetweenArrowTips.htm" />
   <HelpKINode Title="DistanceBetweenRails enumeration member" Url="html/T_Rhino_Geometry_RailType.htm" />
   <HelpKINode Title="DistanceDisplayMode enumeration">
-    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
     <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_UI_DistanceDisplayMode.htm" />
+    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
   </HelpKINode>
   <HelpKINode Title="DistanceDisplayPrecision property" Url="html/P_Rhino_RhinoDoc_DistanceDisplayPrecision.htm" />
   <HelpKINode Title="DistanceFromCamera enumeration member" Url="html/T_Rhino_Render_RenderWindow_StandardChannels.htm" />
@@ -6215,8 +6207,8 @@
   <HelpKINode Title="Enabled property">
     <HelpKINode Title="CustomDisplay.Enabled Property " Url="html/P_Rhino_Display_CustomDisplay_Enabled.htm" />
     <HelpKINode Title="DisplayConduit.Enabled Property " Url="html/P_Rhino_Display_DisplayConduit_Enabled.htm" />
-    <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_GroundPlane_Enabled.htm" />
     <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Enabled.htm" />
+    <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_GroundPlane_Enabled.htm" />
     <HelpKINode Title="GumballDisplayConduit.Enabled Property " Url="html/P_Rhino_UI_Gumball_GumballDisplayConduit_Enabled.htm" />
     <HelpKINode Title="IWindow.Enabled Property " Url="html/P_Rhino_UI_Controls_IWindow_Enabled.htm" />
     <HelpKINode Title="MouseCallback.Enabled Property " Url="html/P_Rhino_UI_MouseCallback_Enabled.htm" />
@@ -6728,7 +6720,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_Fields_Field.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_Fields_Field.htm" />
   </HelpKINode>
-  <HelpKINode Title="Field enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Field enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="Field.CreateCppPointer method" Url="html/M_Rhino_Render_Fields_Field_CreateCppPointer.htm" />
   <HelpKINode Title="Field.Field constructor" Url="html/M_Rhino_Render_Fields_Field__ctor.htm" />
   <HelpKINode Title="Field.IsTextured property" Url="html/P_Rhino_Render_Fields_Field_IsTextured.htm" />
@@ -7273,7 +7265,6 @@
     <HelpKINode Title="FileSettings.FileLockingOpenWarning Property " Url="html/P_Rhino_ApplicationSettings_FileSettings_FileLockingOpenWarning.htm" />
     <HelpKINode Title="FileSettingsState.FileLockingOpenWarning Property " Url="html/P_Rhino_ApplicationSettings_FileSettingsState_FileLockingOpenWarning.htm" />
   </HelpKINode>
-  <HelpKINode Title="Filename property" Url="html/P_Rhino_Render_SimulatedTexture_Filename.htm" />
   <HelpKINode Title="FileName property">
     <HelpKINode Title="BitmapEntry.FileName Property " Url="html/P_Rhino_DocObjects_BitmapEntry_FileName.htm" />
     <HelpKINode Title="DocumentOpenEventArgs.FileName Property " Url="html/P_Rhino_DocumentOpenEventArgs_FileName.htm" />
@@ -7284,6 +7275,7 @@
     <HelpKINode Title="Texture.FileName Property " Url="html/P_Rhino_DocObjects_Texture_FileName.htm" />
     <HelpKINode Title="Worksession.FileName Property " Url="html/P_Rhino_DocObjects_Worksession_FileName.htm" />
   </HelpKINode>
+  <HelpKINode Title="Filename property" Url="html/P_Rhino_Render_SimulatedTexture_Filename.htm" />
   <HelpKINode Title="FileNames property" Url="html/P_Rhino_UI_OpenFileDialog_FileNames.htm" />
   <HelpKINode Title="FileNotFound enumeration member" Url="html/T_Rhino_FileIO_FileReferenceStatus.htm" />
   <HelpKINode Title="FileObj class">
@@ -7832,7 +7824,7 @@
   <HelpKINode Title="Font.Style property" Url="html/P_Rhino_DocObjects_Font_Style.htm" />
   <HelpKINode Title="Font.Underlined property" Url="html/P_Rhino_DocObjects_Font_Underlined.htm" />
   <HelpKINode Title="Font.Weight property" Url="html/P_Rhino_DocObjects_Font_Weight.htm" />
-  <HelpKINode Title="Fontdef enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Fontdef enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="FontFace property">
     <HelpKINode Title="Text3d.FontFace Property " Url="html/P_Rhino_Display_Text3d_FontFace.htm" />
     <HelpKINode Title="TextDot.FontFace Property " Url="html/P_Rhino_Geometry_TextDot_FontFace.htm" />
@@ -8093,7 +8085,7 @@
   <HelpKINode Title="Get2dRectangle method" Url="html/M_Rhino_Input_RhinoGet_Get2dRectangle.htm" />
   <HelpKINode Title="Get3dCurves method" Url="html/M_Rhino_Geometry_Hatch_Get3dCurves.htm" />
   <HelpKINode Title="Get3dPoints method">
-    <HelpKINode Title="AngularDimension.Get3dPoints Method " Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_Get3dPoints.htm" />
+    <HelpKINode Title="AngularDimension.Get3dPoints Method " Url="html/M_Rhino_Geometry_AngularDimension_Get3dPoints.htm" />
     <HelpKINode Title="LinearDimension.Get3dPoints Method " Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_Get3dPoints.htm" />
     <HelpKINode Title="OrdinateDimension.Get3dPoints Method " Url="html/M_Rhino_Geometry_OrdinateDimension_Get3dPoints.htm" />
     <HelpKINode Title="RadialDimension.Get3dPoints Method " Url="html/M_Rhino_Geometry_RadialDimension_Get3dPoints.htm" />
@@ -8104,7 +8096,7 @@
   <HelpKINode Title="GetAllAvailableTypes method" Url="html/M_Rhino_Render_RenderContentType_GetAllAvailableTypes.htm" />
   <HelpKINode Title="GetAlphaBlendValues method" Url="html/M_Rhino_DocObjects_Texture_GetAlphaBlendValues.htm" />
   <HelpKINode Title="GetAngle method" Url="html/M_Rhino_Input_RhinoGet_GetAngle.htm" />
-  <HelpKINode Title="GetAngleDisplayText method" Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetAngleDisplayText.htm" />
+  <HelpKINode Title="GetAngleDisplayText method" Url="html/M_Rhino_Geometry_AngularDimension_GetAngleDisplayText.htm" />
   <HelpKINode Title="GetArc class">
     <HelpKINode Title="GetArc Class" Url="html/T_Rhino_Input_Custom_GetArc.htm" />
     <HelpKINode Title="about GetArc class" Url="html/T_Rhino_Input_Custom_GetArc.htm" />
@@ -8380,7 +8372,7 @@
   <HelpKINode Title="GetDimstyle property" Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_GetDimstyle.htm" />
   <HelpKINode Title="GetDisplayInViewport method" Url="html/M_Rhino_Render_RenderTexture_GetDisplayInViewport.htm" />
   <HelpKINode Title="GetDisplayLines method">
-    <HelpKINode Title="AngularDimension.GetDisplayLines Method " Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetDisplayLines.htm" />
+    <HelpKINode Title="AngularDimension.GetDisplayLines Method " Url="html/M_Rhino_Geometry_AngularDimension_GetDisplayLines.htm" />
     <HelpKINode Title="LinearDimension.GetDisplayLines Method " Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_GetDisplayLines.htm" />
     <HelpKINode Title="OrdinateDimension.GetDisplayLines Method " Url="html/M_Rhino_Geometry_OrdinateDimension_GetDisplayLines.htm" />
     <HelpKINode Title="RadialDimension.GetDisplayLines Method " Url="html/M_Rhino_Geometry_RadialDimension_GetDisplayLines.htm" />
@@ -9001,13 +8993,13 @@
   <HelpKINode Title="GetSurfaceParameters method" Url="html/M_Rhino_DocObjects_GripObject_GetSurfaceParameters.htm" />
   <HelpKINode Title="GetSurfaceSize method" Url="html/M_Rhino_Geometry_Surface_GetSurfaceSize.htm" />
   <HelpKINode Title="GetTextRectangle method">
-    <HelpKINode Title="AngularDimension.GetTextRectangle Method " Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetTextRectangle.htm" />
+    <HelpKINode Title="AngularDimension.GetTextRectangle Method " Url="html/M_Rhino_Geometry_AngularDimension_GetTextRectangle.htm" />
     <HelpKINode Title="LinearDimension.GetTextRectangle Method " Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_GetTextRectangle.htm" />
     <HelpKINode Title="OrdinateDimension.GetTextRectangle Method " Url="html/M_Rhino_Geometry_OrdinateDimension_GetTextRectangle.htm" />
     <HelpKINode Title="RadialDimension.GetTextRectangle Method " Url="html/M_Rhino_Geometry_RadialDimension_GetTextRectangle.htm" />
   </HelpKINode>
   <HelpKINode Title="GetTextTransform method">
-    <HelpKINode Title="AngularDimension.GetTextTransform Method " Url="html/M_Rhino_Geometry_V6Annotation_AngularDimension_GetTextTransform.htm" />
+    <HelpKINode Title="AngularDimension.GetTextTransform Method " Url="html/M_Rhino_Geometry_AngularDimension_GetTextTransform.htm" />
     <HelpKINode Title="LinearDimension.GetTextTransform Method " Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_GetTextTransform.htm" />
     <HelpKINode Title="OrdinateDimension.GetTextTransform Method " Url="html/M_Rhino_Geometry_OrdinateDimension_GetTextTransform.htm" />
     <HelpKINode Title="RadialDimension.GetTextTransform Method " Url="html/M_Rhino_Geometry_RadialDimension_GetTextTransform.htm" />
@@ -9245,14 +9237,14 @@
   <HelpKINode Title="GripUpdate method" Url="html/M_Rhino_DocObjects_Tables_ObjectTable_GripUpdate.htm" />
   <HelpKINode Title="GroundLevel enumeration member" Url="html/T_Rhino_DocObjects_BasepointZero.htm" />
   <HelpKINode Title="GroundPlane class">
-    <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
     <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_GroundPlane.htm" />
-    <HelpKINode Title="about GroundPlane class" Url="html/T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
+    <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
     <HelpKINode Title="about GroundPlane class" Url="html/T_Rhino_Render_GroundPlane.htm" />
+    <HelpKINode Title="about GroundPlane class" Url="html/T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Render_GroundPlane__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Rhino_Render_GroundPlane.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_GroundPlane.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_GroundPlane.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
   </HelpKINode>
@@ -9285,8 +9277,8 @@
     <HelpKINode Title="GroundPlane.TextureOffset Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureOffset.htm" />
   </HelpKINode>
   <HelpKINode Title="GroundPlane.TextureRotation property">
-    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureRotation.htm" />
     <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_GroundPlane_TextureRotation.htm" />
+    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureRotation.htm" />
   </HelpKINode>
   <HelpKINode Title="GroundPlane.TextureScale property" Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureScale.htm" />
   <HelpKINode Title="GroundPlane.TextureSize property" Url="html/P_Rhino_Render_GroundPlane_TextureSize.htm" />
@@ -9552,8 +9544,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_HatchPattern.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_HatchPattern.htm" />
   </HelpKINode>
-  <HelpKINode Title="Hatchpattern enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="HatchPattern enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
+  <HelpKINode Title="Hatchpattern enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="HatchPattern.ComponentType property" Url="html/P_Rhino_DocObjects_HatchPattern_ComponentType.htm" />
   <HelpKINode Title="HatchPattern.Defaults class">
     <HelpKINode Title="HatchPattern.Defaults Class" Url="html/T_Rhino_DocObjects_HatchPattern_Defaults.htm" />
@@ -9601,7 +9593,7 @@
   <HelpKINode Title="HatchPatternTable.Item property" Url="html/P_Rhino_DocObjects_Tables_HatchPatternTable_Item.htm" />
   <HelpKINode Title="HaveFeedbackColor property" Url="html/P_Rhino_Input_Custom_GetLine_HaveFeedbackColor.htm" />
   <HelpKINode Title="HaveTransform property" Url="html/P_Rhino_Input_Custom_GetTransform_HaveTransform.htm" />
-  <HelpKINode Title="Header enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Header enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="HealNakedEdges method" Url="html/M_Rhino_Geometry_Mesh_HealNakedEdges.htm" />
   <HelpKINode Title="Heart enumeration member" Url="html/T_Rhino_Display_PointStyle.htm" />
   <HelpKINode Title="Heavy enumeration member" Url="html/T_Rhino_DocObjects_Font_FontWeight.htm" />
@@ -9963,8 +9955,8 @@
     <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Geometry_Light_Id.htm" />
     <HelpKINode Title="Linetype.Id Property " Url="html/P_Rhino_DocObjects_Linetype_Id.htm" />
     <HelpKINode Title="MappingTag.Id Property " Url="html/P_Rhino_Render_MappingTag_Id.htm" />
-    <HelpKINode Title="Material.Id Property " Url="html/P_Rhino_DocObjects_Material_Id.htm" />
     <HelpKINode Title="Material.Id Property " Url="html/P_Rhino_Render_ChangeQueue_Material_Id.htm" />
+    <HelpKINode Title="Material.Id Property " Url="html/P_Rhino_DocObjects_Material_Id.htm" />
     <HelpKINode Title="ModelComponent.Id Property " Url="html/P_Rhino_DocObjects_ModelComponent_Id.htm" />
     <HelpKINode Title="PlugIn.Id Property " Url="html/P_Rhino_PlugIns_PlugIn_Id.htm" />
     <HelpKINode Title="RenderContent.Id Property " Url="html/P_Rhino_Render_RenderContent_Id.htm" />
@@ -10068,8 +10060,8 @@
   <HelpKINode Title="ImageFile class">
     <HelpKINode Title="ImageFile Class" Url="html/T_Rhino_FileIO_ImageFile.htm" />
     <HelpKINode Title="ImageFile Class" Url="html/T_Rhino_Render_ImageFile.htm" />
-    <HelpKINode Title="about ImageFile class" Url="html/T_Rhino_Render_ImageFile.htm" />
     <HelpKINode Title="about ImageFile class" Url="html/T_Rhino_FileIO_ImageFile.htm" />
+    <HelpKINode Title="about ImageFile class" Url="html/T_Rhino_Render_ImageFile.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Rhino_Render_ImageFile.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_ImageFile.htm" />
   </HelpKINode>
@@ -10611,14 +10603,14 @@
   <HelpKINode Title="Invalidate method" Url="html/M_Rhino_Render_RenderWindow_Invalidate.htm" />
   <HelpKINode Title="InvalidateArea method" Url="html/M_Rhino_Render_RenderWindow_InvalidateArea.htm" />
   <HelpKINode Title="InvalidDimensionStyleIdException class">
-    <HelpKINode Title="InvalidDimensionStyleIdException Class" Url="html/T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
-    <HelpKINode Title="about InvalidDimensionStyleIdException class" Url="html/T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
+    <HelpKINode Title="InvalidDimensionStyleIdException Class" Url="html/T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
+    <HelpKINode Title="about InvalidDimensionStyleIdException class" Url="html/T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_InvalidDimensionStyleIdException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
   </HelpKINode>
-  <HelpKINode Title="InvalidDimensionStyleIdException.InvalidDimensionStyleIdException constructor" Url="html/M_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException__ctor.htm" />
+  <HelpKINode Title="InvalidDimensionStyleIdException.InvalidDimensionStyleIdException constructor" Url="html/M_Rhino_Geometry_InvalidDimensionStyleIdException__ctor.htm" />
   <HelpKINode Title="InvalidMode enumeration member" Url="html/T_Rhino_Runtime_Mode.htm" />
   <HelpKINode Title="InvalidType enumeration member" Url="html/T_Rhino_Geometry_ComponentIndexType.htm" />
   <HelpKINode Title="Inverse property" Url="html/P_Rhino_Geometry_Quaternion_Inverse.htm" />
@@ -11457,67 +11449,59 @@
   <HelpKINode Title="LdrCurveType enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LdrVerticalAlignment enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="Leader class">
-    <HelpKINode Title="Leader Class" Url="html/T_Rhino_Geometry_V6Annotation_Leader.htm" />
     <HelpKINode Title="Leader Class" Url="html/T_Rhino_Geometry_Leader.htm" />
-    <HelpKINode Title="about Leader class" Url="html/T_Rhino_Geometry_V6Annotation_Leader.htm" />
     <HelpKINode Title="about Leader class" Url="html/T_Rhino_Geometry_Leader.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_Leader__ctor.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_V6Annotation_Leader__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_V6Annotation_Leader.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_Leader.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_Leader.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Leader.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_Leader.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Leader.htm" />
   </HelpKINode>
   <HelpKINode Title="Leader enumeration member">
     <HelpKINode Title="AnnotationType Enumeration" Url="html/T_Rhino_Geometry_AnnotationType.htm" />
     <HelpKINode Title="ObjectPropertiesPage.PropertyPageType Enumeration" Url="html/T_Rhino_UI_ObjectPropertiesPage_PropertyPageType.htm" />
   </HelpKINode>
-  <HelpKINode Title="Leader.ContentType property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_ContentType.htm" />
-  <HelpKINode Title="Leader.Create method" Url="html/M_Rhino_Geometry_V6Annotation_Leader_Create.htm" />
-  <HelpKINode Title="Leader.Curve property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_Curve.htm" />
-  <HelpKINode Title="Leader.Leader constructor">
-    <HelpKINode Title="Leader Constructor " Url="html/M_Rhino_Geometry_V6Annotation_Leader__ctor.htm" />
-    <HelpKINode Title="Leader Constructor " Url="html/M_Rhino_Geometry_Leader__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Leader.LeaderArrowBlockId property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowBlockId.htm" />
-  <HelpKINode Title="Leader.LeaderArrowSize property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowSize.htm" />
-  <HelpKINode Title="Leader.LeaderArrowType property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowType.htm" />
-  <HelpKINode Title="Leader.LeaderContentAngleStyle property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderContentAngleStyle.htm" />
-  <HelpKINode Title="Leader.LeaderCurveStyle property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderCurveStyle.htm" />
-  <HelpKINode Title="Leader.LeaderHasLanding property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderHasLanding.htm" />
-  <HelpKINode Title="Leader.LeaderHorizontalAlignment property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderHorizontalAlignment.htm" />
-  <HelpKINode Title="Leader.LeaderLandingLength property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderLandingLength.htm" />
-  <HelpKINode Title="Leader.LeaderVerticalAlignment property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderVerticalAlignment.htm" />
-  <HelpKINode Title="Leader.Points2D property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_Points2D.htm" />
-  <HelpKINode Title="Leader.Points3D property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_Points3D.htm" />
+  <HelpKINode Title="Leader.ContentType property" Url="html/P_Rhino_Geometry_Leader_ContentType.htm" />
+  <HelpKINode Title="Leader.Create method" Url="html/M_Rhino_Geometry_Leader_Create.htm" />
+  <HelpKINode Title="Leader.Curve property" Url="html/P_Rhino_Geometry_Leader_Curve.htm" />
+  <HelpKINode Title="Leader.Leader constructor" Url="html/M_Rhino_Geometry_Leader__ctor.htm" />
+  <HelpKINode Title="Leader.LeaderArrowBlockId property" Url="html/P_Rhino_Geometry_Leader_LeaderArrowBlockId.htm" />
+  <HelpKINode Title="Leader.LeaderArrowSize property" Url="html/P_Rhino_Geometry_Leader_LeaderArrowSize.htm" />
+  <HelpKINode Title="Leader.LeaderArrowType property" Url="html/P_Rhino_Geometry_Leader_LeaderArrowType.htm" />
+  <HelpKINode Title="Leader.LeaderContentAngleStyle property" Url="html/P_Rhino_Geometry_Leader_LeaderContentAngleStyle.htm" />
+  <HelpKINode Title="Leader.LeaderCurveStyle property" Url="html/P_Rhino_Geometry_Leader_LeaderCurveStyle.htm" />
+  <HelpKINode Title="Leader.LeaderHasLanding property" Url="html/P_Rhino_Geometry_Leader_LeaderHasLanding.htm" />
+  <HelpKINode Title="Leader.LeaderHorizontalAlignment property" Url="html/P_Rhino_Geometry_Leader_LeaderHorizontalAlignment.htm" />
+  <HelpKINode Title="Leader.LeaderLandingLength property" Url="html/P_Rhino_Geometry_Leader_LeaderLandingLength.htm" />
+  <HelpKINode Title="Leader.LeaderVerticalAlignment property" Url="html/P_Rhino_Geometry_Leader_LeaderVerticalAlignment.htm" />
+  <HelpKINode Title="Leader.Points2D property" Url="html/P_Rhino_Geometry_Leader_Points2D.htm" />
+  <HelpKINode Title="Leader.Points3D property" Url="html/P_Rhino_Geometry_Leader_Points3D.htm" />
   <HelpKINode Title="LeaderArrowBlock enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderArrowBlockId property">
     <HelpKINode Title="DimensionStyle.LeaderArrowBlockId Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderArrowBlockId.htm" />
-    <HelpKINode Title="Leader.LeaderArrowBlockId Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowBlockId.htm" />
+    <HelpKINode Title="Leader.LeaderArrowBlockId Property " Url="html/P_Rhino_Geometry_Leader_LeaderArrowBlockId.htm" />
     <HelpKINode Title="RadialDimension.LeaderArrowBlockId Property " Url="html/P_Rhino_Geometry_RadialDimension_LeaderArrowBlockId.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderArrowLength property" Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderArrowLength.htm" />
   <HelpKINode Title="LeaderArrowsize enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderArrowSize property">
     <HelpKINode Title="DimensionStyle.LeaderArrowSize Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderArrowSize.htm" />
-    <HelpKINode Title="Leader.LeaderArrowSize Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowSize.htm" />
+    <HelpKINode Title="Leader.LeaderArrowSize Property " Url="html/P_Rhino_Geometry_Leader_LeaderArrowSize.htm" />
     <HelpKINode Title="RadialDimension.LeaderArrowSize Property " Url="html/P_Rhino_Geometry_RadialDimension_LeaderArrowSize.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderArrowType enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderArrowType property">
     <HelpKINode Title="DimensionStyle.LeaderArrowType Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderArrowType.htm" />
-    <HelpKINode Title="Leader.LeaderArrowType Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderArrowType.htm" />
+    <HelpKINode Title="Leader.LeaderArrowType Property " Url="html/P_Rhino_Geometry_Leader_LeaderArrowType.htm" />
     <HelpKINode Title="RadialDimension.LeaderArrowType Property " Url="html/P_Rhino_Geometry_RadialDimension_LeaderArrowType.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderContentAngle enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderContentAngleStyle property">
-    <HelpKINode Title="Leader.LeaderContentAngleStyle Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderContentAngleStyle.htm" />
+    <HelpKINode Title="Leader.LeaderContentAngleStyle Property " Url="html/P_Rhino_Geometry_Leader_LeaderContentAngleStyle.htm" />
     <HelpKINode Title="RadialDimension.LeaderContentAngleStyle Property " Url="html/P_Rhino_Geometry_RadialDimension_LeaderContentAngleStyle.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderContentAngleType property" Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderContentAngleType.htm" />
   <HelpKINode Title="LeaderCurveStyle property">
-    <HelpKINode Title="Leader.LeaderCurveStyle Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderCurveStyle.htm" />
+    <HelpKINode Title="Leader.LeaderCurveStyle Property " Url="html/P_Rhino_Geometry_Leader_LeaderCurveStyle.htm" />
     <HelpKINode Title="RadialDimension.LeaderCurveStyle Property " Url="html/P_Rhino_Geometry_RadialDimension_LeaderCurveStyle.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderCurveType property" Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderCurveType.htm" />
@@ -11525,17 +11509,17 @@
   <HelpKINode Title="LeaderHasLanding enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderHasLanding property">
     <HelpKINode Title="DimensionStyle.LeaderHasLanding Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderHasLanding.htm" />
-    <HelpKINode Title="Leader.LeaderHasLanding Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderHasLanding.htm" />
+    <HelpKINode Title="Leader.LeaderHasLanding Property " Url="html/P_Rhino_Geometry_Leader_LeaderHasLanding.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderHorizontalAlignment enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderHorizontalAlignment property">
     <HelpKINode Title="DimensionStyle.LeaderHorizontalAlignment Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderHorizontalAlignment.htm" />
-    <HelpKINode Title="Leader.LeaderHorizontalAlignment Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderHorizontalAlignment.htm" />
+    <HelpKINode Title="Leader.LeaderHorizontalAlignment Property " Url="html/P_Rhino_Geometry_Leader_LeaderHorizontalAlignment.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderLandingLength enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="LeaderLandingLength property">
     <HelpKINode Title="DimensionStyle.LeaderLandingLength Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderLandingLength.htm" />
-    <HelpKINode Title="Leader.LeaderLandingLength Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderLandingLength.htm" />
+    <HelpKINode Title="Leader.LeaderLandingLength Property " Url="html/P_Rhino_Geometry_Leader_LeaderLandingLength.htm" />
   </HelpKINode>
   <HelpKINode Title="LeaderObject class">
     <HelpKINode Title="LeaderObject Class" Url="html/T_Rhino_DocObjects_LeaderObject.htm" />
@@ -11549,7 +11533,7 @@
   <HelpKINode Title="LeaderTextRotationRadians property" Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderTextRotationRadians.htm" />
   <HelpKINode Title="LeaderVerticalAlignment property">
     <HelpKINode Title="DimensionStyle.LeaderVerticalAlignment Property " Url="html/P_Rhino_DocObjects_DimensionStyle_LeaderVerticalAlignment.htm" />
-    <HelpKINode Title="Leader.LeaderVerticalAlignment Property " Url="html/P_Rhino_Geometry_V6Annotation_Leader_LeaderVerticalAlignment.htm" />
+    <HelpKINode Title="Leader.LeaderVerticalAlignment Property " Url="html/P_Rhino_Geometry_Leader_LeaderVerticalAlignment.htm" />
   </HelpKINode>
   <HelpKINode Title="Lease property" Url="html/P_Rhino_PlugIns_LicenseLeaseChangedEventArgs_Lease.htm" />
   <HelpKINode Title="LeaseId property" Url="html/P_Rhino_PlugIns_LicenseLease_LeaseId.htm" />
@@ -11764,15 +11748,15 @@
   <HelpKINode Title="LicenseUtils.ShowLicenseValidationUi method" Url="html/M_Rhino_PlugIns_LicenseUtils_ShowLicenseValidationUi.htm" />
   <HelpKINode Title="LicenseUtils.ShowRhinoExpiredMessage method" Url="html/M_Rhino_PlugIns_LicenseUtils_ShowRhinoExpiredMessage.htm" />
   <HelpKINode Title="Light class">
-    <HelpKINode Title="Light Class" Url="html/T_Rhino_Render_ChangeQueue_Light.htm" />
     <HelpKINode Title="Light Class" Url="html/T_Rhino_Geometry_Light.htm" />
-    <HelpKINode Title="about Light class" Url="html/T_Rhino_Geometry_Light.htm" />
+    <HelpKINode Title="Light Class" Url="html/T_Rhino_Render_ChangeQueue_Light.htm" />
     <HelpKINode Title="about Light class" Url="html/T_Rhino_Render_ChangeQueue_Light.htm" />
+    <HelpKINode Title="about Light class" Url="html/T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_Light__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Light.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Light.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Light.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Light.htm" />
   </HelpKINode>
   <HelpKINode Title="Light enumeration member">
     <HelpKINode Title="File3dm.TableTypeFilter Enumeration" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
@@ -11795,8 +11779,8 @@
   <HelpKINode Title="Light.GetSpotLightRadii method" Url="html/M_Rhino_Geometry_Light_GetSpotLightRadii.htm" />
   <HelpKINode Title="Light.HotSpot property" Url="html/P_Rhino_Geometry_Light_HotSpot.htm" />
   <HelpKINode Title="Light.Id property">
-    <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Geometry_Light_Id.htm" />
     <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Render_ChangeQueue_Light_Id.htm" />
+    <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Geometry_Light_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="Light.IdCrc property" Url="html/P_Rhino_Render_ChangeQueue_Light_IdCrc.htm" />
   <HelpKINode Title="Light.Intensity property" Url="html/P_Rhino_Geometry_Light_Intensity.htm" />
@@ -12010,15 +11994,15 @@
   <HelpKINode Title="Line2d method" Url="html/M_Rhino_Input_Custom_GetBaseClass_Line2d.htm" />
   <HelpKINode Title="Linear enumeration member" Url="html/T_Rhino_Geometry_DistancingMode.htm" />
   <HelpKINode Title="LinearDimension class">
-    <HelpKINode Title="LinearDimension Class" Url="html/T_Rhino_Geometry_LinearDimension.htm" />
     <HelpKINode Title="LinearDimension Class" Url="html/T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
-    <HelpKINode Title="about LinearDimension class" Url="html/T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
+    <HelpKINode Title="LinearDimension Class" Url="html/T_Rhino_Geometry_LinearDimension.htm" />
     <HelpKINode Title="about LinearDimension class" Url="html/T_Rhino_Geometry_LinearDimension.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_LinearDimension__ctor.htm" />
+    <HelpKINode Title="about LinearDimension class" Url="html/T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_LinearDimension__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_V6Annotation_LinearDimension__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_LinearDimension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_LinearDimension.htm" />
   </HelpKINode>
@@ -12042,8 +12026,8 @@
   <HelpKINode Title="LinearDimension.GetTextRectangle method" Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_GetTextRectangle.htm" />
   <HelpKINode Title="LinearDimension.GetTextTransform method" Url="html/M_Rhino_Geometry_V6Annotation_LinearDimension_GetTextTransform.htm" />
   <HelpKINode Title="LinearDimension.LinearDimension constructor">
-    <HelpKINode Title="LinearDimension Constructor " Url="html/Overload_Rhino_Geometry_V6Annotation_LinearDimension__ctor.htm" />
     <HelpKINode Title="LinearDimension Constructor " Url="html/Overload_Rhino_Geometry_LinearDimension__ctor.htm" />
+    <HelpKINode Title="LinearDimension Constructor " Url="html/Overload_Rhino_Geometry_V6Annotation_LinearDimension__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="LinearDimension.SetLocations method" Url="html/M_Rhino_Geometry_LinearDimension_SetLocations.htm" />
   <HelpKINode Title="LinearDimension.TextPosition property" Url="html/P_Rhino_Geometry_LinearDimension_TextPosition.htm" />
@@ -12538,13 +12522,13 @@
   <HelpKINode Title="MatedInnerLoop enumeration member" Url="html/T_Rhino_Input_Custom_GeometryAttributeFilter.htm" />
   <HelpKINode Title="MatedOuterLoop enumeration member" Url="html/T_Rhino_Input_Custom_GeometryAttributeFilter.htm" />
   <HelpKINode Title="Material class">
-    <HelpKINode Title="Material Class" Url="html/T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="Material Class" Url="html/T_Rhino_Render_ChangeQueue_Material.htm" />
-    <HelpKINode Title="about Material class" Url="html/T_Rhino_Render_ChangeQueue_Material.htm" />
+    <HelpKINode Title="Material Class" Url="html/T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="about Material class" Url="html/T_Rhino_DocObjects_Material.htm" />
+    <HelpKINode Title="about Material class" Url="html/T_Rhino_Render_ChangeQueue_Material.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_DocObjects_Material__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Material.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Material.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_Material.htm" />
   </HelpKINode>
@@ -12820,10 +12804,10 @@
     <HelpKINode Title="about Mesh class" Url="html/T_Rhino_Render_ChangeQueue_Mesh.htm" />
     <HelpKINode Title="about Mesh class" Url="html/T_Rhino_Geometry_Mesh.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_Mesh__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Mesh.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Mesh.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Mesh.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Mesh.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Mesh.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Mesh.htm" />
   </HelpKINode>
   <HelpKINode Title="Mesh enumeration member">
     <HelpKINode Title="File3dm.ObjectTypeFilter Enumeration" Url="html/T_Rhino_FileIO_File3dm_ObjectTypeFilter.htm" />
@@ -13570,8 +13554,8 @@
     <HelpKINode Title="File3dmSettings.ModelAngleToleranceRadians Property " Url="html/P_Rhino_FileIO_File3dmSettings_ModelAngleToleranceRadians.htm" />
     <HelpKINode Title="RhinoDoc.ModelAngleToleranceRadians Property " Url="html/P_Rhino_RhinoDoc_ModelAngleToleranceRadians.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModelBasepoint property" Url="html/P_Rhino_FileIO_File3dmSettings_ModelBasepoint.htm" />
   <HelpKINode Title="ModelBasePoint property" Url="html/P_Rhino_DocObjects_EarthAnchorPoint_ModelBasePoint.htm" />
+  <HelpKINode Title="ModelBasepoint property" Url="html/P_Rhino_FileIO_File3dmSettings_ModelBasepoint.htm" />
   <HelpKINode Title="ModelComponent class">
     <HelpKINode Title="ModelComponent Class" Url="html/T_Rhino_DocObjects_ModelComponent.htm" />
     <HelpKINode Title="about ModelComponent class" Url="html/T_Rhino_DocObjects_ModelComponent.htm" />
@@ -14009,7 +13993,7 @@
   <HelpKINode Title="NewContentFromTypeId method" Url="html/M_Rhino_Render_RenderContentType_NewContentFromTypeId.htm" />
   <HelpKINode Title="NewDocument event" Url="html/E_Rhino_RhinoDoc_NewDocument.htm" />
   <HelpKINode Title="NewGeometry method" Url="html/M_Rhino_DocObjects_Custom_CustomObjectGrips_NewGeometry.htm" />
-  <HelpKINode Title="Newline enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Newline enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="NewLocation method" Url="html/M_Rhino_DocObjects_Custom_CustomGripObject_NewLocation.htm" />
   <HelpKINode Title="NewLocation property" Url="html/P_Rhino_DocObjects_Custom_CustomObjectGrips_NewLocation.htm" />
   <HelpKINode Title="NewMapping property" Url="html/P_Rhino_RhinoDoc_TextureMappingEventArgs_NewMapping.htm" />
@@ -14174,7 +14158,7 @@
     <HelpKINode Title="SubD.ConvexCornerOption Enumeration" Url="html/T_Rhino_Geometry_SubD_ConvexCornerOption.htm" />
     <HelpKINode Title="SubD.InteriorCreaseOption Enumeration" Url="html/T_Rhino_Geometry_SubD_InteriorCreaseOption.htm" />
     <HelpKINode Title="TextJustification Enumeration" Url="html/T_Rhino_Geometry_TextJustification.htm" />
-    <HelpKINode Title="TextRunType Enumeration" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+    <HelpKINode Title="TextRunType Enumeration" Url="html/T_Rhino_Geometry_TextRunType.htm" />
     <HelpKINode Title="TextureCombineMode Enumeration" Url="html/T_Rhino_DocObjects_TextureCombineMode.htm" />
     <HelpKINode Title="TextureMappingType Enumeration" Url="html/T_Rhino_Render_TextureMappingType.htm" />
     <HelpKINode Title="TextureType Enumeration" Url="html/T_Rhino_DocObjects_TextureType.htm" />
@@ -15199,7 +15183,7 @@
     <HelpKINode Title="ViewSettingsState.PanScreenFraction Property " Url="html/P_Rhino_ApplicationSettings_ViewSettingsState_PanScreenFraction.htm" />
   </HelpKINode>
   <HelpKINode Title="Parabola enumeration member" Url="html/T_Rhino_Geometry_ConicSectionType.htm" />
-  <HelpKINode Title="Paragraph enumeration member" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="Paragraph enumeration member" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="Parallel enumeration member" Url="html/T_Rhino_Geometry_Intersect_PlaneCircleIntersection.htm" />
   <HelpKINode Title="Parameter method" Url="html/M_Rhino_Geometry_PolylineCurve_Parameter.htm" />
   <HelpKINode Title="ParameterA property" Url="html/P_Rhino_Geometry_Intersect_IntersectionEvent_ParameterA.htm" />
@@ -15584,8 +15568,8 @@
     <HelpKINode Title="RenderPrimitiveType Enumeration" Url="html/T_Rhino_Render_RenderPrimitiveType.htm" />
   </HelpKINode>
   <HelpKINode Title="Plane property">
-    <HelpKINode Title="AnnotationBase.Plane Property " Url="html/P_Rhino_Geometry_AnnotationBase_Plane.htm" />
     <HelpKINode Title="AnnotationBase.Plane Property " Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_Plane.htm" />
+    <HelpKINode Title="AnnotationBase.Plane Property " Url="html/P_Rhino_Geometry_AnnotationBase_Plane.htm" />
     <HelpKINode Title="Arc.Plane Property " Url="html/P_Rhino_Geometry_Arc_Plane.htm" />
     <HelpKINode Title="Box.Plane Property " Url="html/P_Rhino_Geometry_Box_Plane.htm" />
     <HelpKINode Title="Circle.Plane Property " Url="html/P_Rhino_Geometry_Circle_Plane.htm" />
@@ -16154,8 +16138,8 @@
     <HelpKINode Title="NurbsCurve.Points Property " Url="html/P_Rhino_Geometry_NurbsCurve_Points.htm" />
     <HelpKINode Title="NurbsSurface.Points Property " Url="html/P_Rhino_Geometry_NurbsSurface_Points.htm" />
   </HelpKINode>
-  <HelpKINode Title="Points2D property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_Points2D.htm" />
-  <HelpKINode Title="Points3D property" Url="html/P_Rhino_Geometry_V6Annotation_Leader_Points3D.htm" />
+  <HelpKINode Title="Points2D property" Url="html/P_Rhino_Geometry_Leader_Points2D.htm" />
+  <HelpKINode Title="Points3D property" Url="html/P_Rhino_Geometry_Leader_Points3D.htm" />
   <HelpKINode Title="PointSet enumeration member" Url="html/T_Rhino_DocObjects_ObjectType.htm" />
   <HelpKINode Title="Pointset enumeration member" Url="html/T_Rhino_FileIO_File3dm_ObjectTypeFilter.htm" />
   <HelpKINode Title="PointStyle enumeration" Url="html/T_Rhino_Display_PointStyle.htm" />
@@ -18185,6 +18169,7 @@
   <HelpKINode Title="Rhino.Geometry.Arc structure" Url="html/T_Rhino_Geometry_Arc.htm" />
   <HelpKINode Title="Rhino.Geometry.ArcCurve class" Url="html/T_Rhino_Geometry_ArcCurve.htm" />
   <HelpKINode Title="Rhino.Geometry.AreaMassProperties class" Url="html/T_Rhino_Geometry_AreaMassProperties.htm" />
+  <HelpKINode Title="Rhino.Geometry.Arrowhead class" Url="html/T_Rhino_Geometry_Arrowhead.htm" />
   <HelpKINode Title="Rhino.Geometry.BezierCurve class" Url="html/T_Rhino_Geometry_BezierCurve.htm" />
   <HelpKINode Title="Rhino.Geometry.BlendContinuity enumeration" Url="html/T_Rhino_Geometry_BlendContinuity.htm" />
   <HelpKINode Title="Rhino.Geometry.BlendType enumeration" Url="html/T_Rhino_Geometry_BlendType.htm" />
@@ -18281,6 +18266,7 @@
   <HelpKINode Title="Rhino.Geometry.Intersect.PlaneSphereIntersection enumeration" Url="html/T_Rhino_Geometry_Intersect_PlaneSphereIntersection.htm" />
   <HelpKINode Title="Rhino.Geometry.Intersect.SphereSphereIntersection enumeration" Url="html/T_Rhino_Geometry_Intersect_SphereSphereIntersection.htm" />
   <HelpKINode Title="Rhino.Geometry.Interval structure" Url="html/T_Rhino_Geometry_Interval.htm" />
+  <HelpKINode Title="Rhino.Geometry.InvalidDimensionStyleIdException class" Url="html/T_Rhino_Geometry_InvalidDimensionStyleIdException.htm" />
   <HelpKINode Title="Rhino.Geometry.IsoStatus enumeration" Url="html/T_Rhino_Geometry_IsoStatus.htm" />
   <HelpKINode Title="Rhino.Geometry.Leader class" Url="html/T_Rhino_Geometry_Leader.htm" />
   <HelpKINode Title="Rhino.Geometry.Light class" Url="html/T_Rhino_Geometry_Light.htm" />
@@ -18380,20 +18366,16 @@
   <HelpKINode Title="Rhino.Geometry.TextDot class" Url="html/T_Rhino_Geometry_TextDot.htm" />
   <HelpKINode Title="Rhino.Geometry.TextEntity class" Url="html/T_Rhino_Geometry_TextEntity.htm" />
   <HelpKINode Title="Rhino.Geometry.TextJustification enumeration" Url="html/T_Rhino_Geometry_TextJustification.htm" />
+  <HelpKINode Title="Rhino.Geometry.TextRunType enumeration" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="Rhino.Geometry.Torus structure" Url="html/T_Rhino_Geometry_Torus.htm" />
   <HelpKINode Title="Rhino.Geometry.Transform structure" Url="html/T_Rhino_Geometry_Transform.htm" />
   <HelpKINode Title="Rhino.Geometry.TransformSimilarityType enumeration" Url="html/T_Rhino_Geometry_TransformSimilarityType.htm" />
   <HelpKINode Title="Rhino.Geometry.Unroller class" Url="html/T_Rhino_Geometry_Unroller.htm" />
   <HelpKINode Title="Rhino.Geometry.V6Annotation namespace" Url="html/N_Rhino_Geometry_V6Annotation.htm" />
-  <HelpKINode Title="Rhino.Geometry.V6Annotation.AngularDimension class" Url="html/T_Rhino_Geometry_V6Annotation_AngularDimension.htm" />
   <HelpKINode Title="Rhino.Geometry.V6Annotation.AnnotationBase class" Url="html/T_Rhino_Geometry_V6Annotation_AnnotationBase.htm" />
   <HelpKINode Title="Rhino.Geometry.V6Annotation.AnnotationExtensions class" Url="html/T_Rhino_Geometry_V6Annotation_AnnotationExtensions.htm" />
-  <HelpKINode Title="Rhino.Geometry.V6Annotation.Arrowhead class" Url="html/T_Rhino_Geometry_V6Annotation_Arrowhead.htm" />
-  <HelpKINode Title="Rhino.Geometry.V6Annotation.InvalidDimensionStyleIdException class" Url="html/T_Rhino_Geometry_V6Annotation_InvalidDimensionStyleIdException.htm" />
-  <HelpKINode Title="Rhino.Geometry.V6Annotation.Leader class" Url="html/T_Rhino_Geometry_V6Annotation_Leader.htm" />
   <HelpKINode Title="Rhino.Geometry.V6Annotation.LinearDimension class" Url="html/T_Rhino_Geometry_V6Annotation_LinearDimension.htm" />
   <HelpKINode Title="Rhino.Geometry.V6Annotation.TextEntity class" Url="html/T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
-  <HelpKINode Title="Rhino.Geometry.V6Annotation.TextRunType enumeration" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
   <HelpKINode Title="Rhino.Geometry.Vector2d structure" Url="html/T_Rhino_Geometry_Vector2d.htm" />
   <HelpKINode Title="Rhino.Geometry.Vector2f structure" Url="html/T_Rhino_Geometry_Vector2f.htm" />
   <HelpKINode Title="Rhino.Geometry.Vector3d structure" Url="html/T_Rhino_Geometry_Vector3d.htm" />
@@ -20938,14 +20920,14 @@
   <HelpKINode Title="Skylight class">
     <HelpKINode Title="Skylight Class" Url="html/T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="Skylight Class" Url="html/T_Rhino_Render_ChangeQueue_Skylight.htm" />
-    <HelpKINode Title="about Skylight class" Url="html/T_Rhino_Render_ChangeQueue_Skylight.htm" />
     <HelpKINode Title="about Skylight class" Url="html/T_Rhino_Render_Skylight.htm" />
+    <HelpKINode Title="about Skylight class" Url="html/T_Rhino_Render_ChangeQueue_Skylight.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Render_Skylight__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Skylight.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_Skylight.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Skylight.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_Skylight.htm" />
   </HelpKINode>
   <HelpKINode Title="SkyLight enumeration member" Url="html/T_Rhino_PlugIns_RenderPlugIn_RenderFeature.htm" />
   <HelpKINode Title="Skylight property">
@@ -22355,11 +22337,11 @@
     <HelpKINode Title="AnnotationType Enumeration" Url="html/T_Rhino_Geometry_AnnotationType.htm" />
     <HelpKINode Title="DimensionStyle.LeaderContentType Enumeration" Url="html/T_Rhino_DocObjects_DimensionStyle_LeaderContentType.htm" />
     <HelpKINode Title="ObjectPropertiesPage.PropertyPageType Enumeration" Url="html/T_Rhino_UI_ObjectPropertiesPage_PropertyPageType.htm" />
-    <HelpKINode Title="TextRunType Enumeration" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+    <HelpKINode Title="TextRunType Enumeration" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   </HelpKINode>
   <HelpKINode Title="Text property">
-    <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_AnnotationBase_Text.htm" />
     <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_Text.htm" />
+    <HelpKINode Title="AnnotationBase.Text Property " Url="html/P_Rhino_Geometry_AnnotationBase_Text.htm" />
     <HelpKINode Title="RuiUpdateUi.Text Property " Url="html/P_Rhino_UI_RuiUpdateUi_Text.htm" />
     <HelpKINode Title="Text3d.Text Property " Url="html/P_Rhino_Display_Text3d_Text.htm" />
     <HelpKINode Title="TextDot.Text Property " Url="html/P_Rhino_Geometry_TextDot_Text.htm" />
@@ -22418,17 +22400,17 @@
   </HelpKINode>
   <HelpKINode Title="TextEnabled enumeration member" Url="html/T_Rhino_ApplicationSettings_PaintColor.htm" />
   <HelpKINode Title="TextEntity class">
-    <HelpKINode Title="TextEntity Class" Url="html/T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
     <HelpKINode Title="TextEntity Class" Url="html/T_Rhino_Geometry_TextEntity.htm" />
-    <HelpKINode Title="about TextEntity class" Url="html/T_Rhino_Geometry_TextEntity.htm" />
+    <HelpKINode Title="TextEntity Class" Url="html/T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
     <HelpKINode Title="about TextEntity class" Url="html/T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
+    <HelpKINode Title="about TextEntity class" Url="html/T_Rhino_Geometry_TextEntity.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_TextEntity__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_V6Annotation_TextEntity__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_TextEntity.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_TextEntity.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_V6Annotation_TextEntity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_TextEntity.htm" />
   </HelpKINode>
   <HelpKINode Title="TextEntity method" Url="html/M_Rhino_DocObjects_ObjRef_TextEntity.htm" />
   <HelpKINode Title="TextEntity.AnnotativeScalingEnabled property" Url="html/P_Rhino_Geometry_TextEntity_AnnotativeScalingEnabled.htm" />
@@ -22456,8 +22438,8 @@
   <HelpKINode Title="TextGeometry property" Url="html/P_Rhino_DocObjects_TextObject_TextGeometry.htm" />
   <HelpKINode Title="TextHeight enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="TextHeight property">
-    <HelpKINode Title="AnnotationBase.TextHeight Property " Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_TextHeight.htm" />
     <HelpKINode Title="AnnotationBase.TextHeight Property " Url="html/P_Rhino_Geometry_AnnotationBase_TextHeight.htm" />
+    <HelpKINode Title="AnnotationBase.TextHeight Property " Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_TextHeight.htm" />
     <HelpKINode Title="DimensionStyle.TextHeight Property " Url="html/P_Rhino_DocObjects_DimensionStyle_TextHeight.htm" />
   </HelpKINode>
   <HelpKINode Title="TextHorizontalAlignment enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
@@ -22504,7 +22486,7 @@
   </HelpKINode>
   <HelpKINode Title="TextRotationDegrees property" Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_TextRotationDegrees.htm" />
   <HelpKINode Title="TextRotationRadians property" Url="html/P_Rhino_Geometry_V6Annotation_AnnotationBase_TextRotationRadians.htm" />
-  <HelpKINode Title="TextRunType enumeration" Url="html/T_Rhino_Geometry_V6Annotation_TextRunType.htm" />
+  <HelpKINode Title="TextRunType enumeration" Url="html/T_Rhino_Geometry_TextRunType.htm" />
   <HelpKINode Title="TextStyle enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
   <HelpKINode Title="Texture class">
     <HelpKINode Title="Texture Class" Url="html/T_Rhino_DocObjects_Texture.htm" />
@@ -22603,8 +22585,8 @@
   <HelpKINode Title="TextureProjectionMode enumeration" Url="html/T_Rhino_Render_TextureProjectionMode.htm" />
   <HelpKINode Title="TextureRenderHashFlags enumeration" Url="html/T_Rhino_Render_TextureRenderHashFlags.htm" />
   <HelpKINode Title="TextureRotation property">
-    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_GroundPlane_TextureRotation.htm" />
     <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureRotation.htm" />
+    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_GroundPlane_TextureRotation.htm" />
   </HelpKINode>
   <HelpKINode Title="Textures enumeration member" Url="html/T_Rhino_PlugIns_RenderPlugIn_RenderFeature.htm" />
   <HelpKINode Title="TextureScale property" Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureScale.htm" />
@@ -23322,7 +23304,7 @@
   <HelpKINode Title="TwoPoint enumeration member" Url="html/T_Rhino_Input_Custom_GetLineMode.htm" />
   <HelpKINode Title="TwoPointPerspective enumeration member" Url="html/T_Rhino_Display_DefinedViewportProjection.htm" />
   <HelpKINode Title="Type property">
-    <HelpKINode Title="AngularDimension.Type Property " Url="html/P_Rhino_Geometry_V6Annotation_AngularDimension_Type.htm" />
+    <HelpKINode Title="AngularDimension.Type Property " Url="html/P_Rhino_Geometry_AngularDimension_Type.htm" />
     <HelpKINode Title="LinearDimension.Type Property " Url="html/P_Rhino_Geometry_V6Annotation_LinearDimension_Type.htm" />
     <HelpKINode Title="OrdinateDimension.Type Property " Url="html/P_Rhino_Geometry_OrdinateDimension_Type.htm" />
     <HelpKINode Title="RadialDimension.Type Property " Url="html/P_Rhino_Geometry_RadialDimension_Type.htm" />
