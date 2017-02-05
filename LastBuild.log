@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="2/4/2017 10:02:53 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\helpdocs.shfbproj.teamcity" started="2/4/2017 6:59:56 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0560
+</plugIn>    Last step completed in 00:00:00.0610
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1450
+    Last step completed in 00:00:00.1420
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 2/4/2017 10:02:56 AM.
+Build started 2/4/2017 6:59:59 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +47,7 @@ GenerateRefInfo:
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 30 namespaces, 892 types, and 11261 members
+  Wrote information on 29 namespaces, 890 types, and 11243 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:05.08
-    Last step completed in 00:00:05.3215
+Time Elapsed 00:00:05.16
+    Last step completed in 00:00:05.3880
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 2/4/2017 10:03:01 AM.
+Build started 2/4/2017 7:00:04 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -386,8 +386,8 @@ TransformManifest:
     Unique name M_Rhino_Display_DisplayPipeline_DrawSprite_2 generated for M:Rhino.Display.DisplayPipeline.DrawSprite(Rhino.Display.DisplayBitmap,Rhino.Geometry.Point3d,System.Single,System.Boolean)
     Unique name M_Rhino_Display_DisplayPipeline_DrawSprite_3 generated for M:Rhino.Display.DisplayPipeline.DrawSprite(Rhino.Display.DisplayBitmap,Rhino.Geometry.Point3d,System.Single,System.Drawing.Color,System.Boolean)
     Unique name M_Rhino_Display_DisplayPipeline_DrawSprites_1 generated for M:Rhino.Display.DisplayPipeline.DrawSprites(Rhino.Display.DisplayBitmap,Rhino.Display.DisplayBitmapDrawList,System.Single,System.Boolean)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawText_1 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawText_2 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,System.Double)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawText_1 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawText_2 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)
     Unique name M_Rhino_Display_DisplayPipeline_DrawTorus_1 generated for M:Rhino.Display.DisplayPipeline.DrawTorus(Rhino.Geometry.Torus,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_IsVisible_1 generated for M:Rhino.Display.DisplayPipeline.IsVisible(Rhino.Geometry.BoundingBox)
     Unique name M_Rhino_Display_DisplayPipeline_IsVisible_2 generated for M:Rhino.Display.DisplayPipeline.IsVisible(Rhino.Geometry.Point3d)
@@ -656,17 +656,14 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Display.Text3d,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddText_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.Geometry.TextJustification,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(Rhino.Geometry.TextDot,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_AddTextDot_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.AddTextDot(System.String,Rhino.Geometry.Point3d)
@@ -714,23 +711,21 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Surface)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextDot)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_15 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.V6Annotation.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_31 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_32 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.V6Annotation.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_3 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean,System.Boolean,System.Boolean)
@@ -1425,7 +1420,6 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Morphs_StretchSpaceMorph_Dispose_1 generated for M:Rhino.Geometry.Morphs.StretchSpaceMorph.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Morphs_TaperSpaceMorph_Dispose_1 generated for M:Rhino.Geometry.Morphs.TaperSpaceMorph.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Morphs_TwistSpaceMorph_Dispose_1 generated for M:Rhino.Geometry.Morphs.TwistSpaceMorph.Dispose(System.Boolean)
-    Unique name M_Rhino_Geometry_V6Annotation_AnnotationBase__ctor_1 generated for M:Rhino.Geometry.V6Annotation.AnnotationBase.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Input_RhinoGet_GetBox_1 generated for M:Rhino.Input.RhinoGet.GetBox(Rhino.Geometry.Box@,Rhino.Input.GetBoxMode,Rhino.Geometry.Point3d,System.String,System.String,System.String)
     Unique name M_Rhino_Input_RhinoGet_GetInteger_1 generated for M:Rhino.Input.RhinoGet.GetInteger(System.String,System.Boolean,System.Int32@,System.Int32,System.Int32)
     Unique name M_Rhino_Input_RhinoGet_GetMultipleObjects_1 generated for M:Rhino.Input.RhinoGet.GetMultipleObjects(System.String,System.Boolean,Rhino.Input.Custom.GetObjectGeometryFilter,Rhino.DocObjects.ObjRef[]@)
@@ -1731,17 +1725,17 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:22.92
-    Last step completed in 00:00:23.1123
+Time Elapsed 00:00:22.86
+    Last step completed in 00:00:22.9970
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8881
+    Last step completed in 00:00:00.8810
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -1750,7 +1744,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 2/4/2017 10:03:25 AM.
+Build started 2/4/2017 7:00:28 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1761,14 +1755,14 @@ Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rh
 
 Build succeeded.
 
-Time Elapsed 00:00:01.19
+Time Elapsed 00:00:01.18
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.3611
+    Last step completed in 00:00:01.3570
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8021
+    Last step completed in 00:00:00.8260
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1776,12 +1770,12 @@ D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\sandc
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0270
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 2/4/2017 10:03:27 AM.
+Build started 2/4/2017 7:00:30 PM.
 Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -3009,17 +3003,17 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipelin
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawSprites(Rhino.Display.DisplayBitmap,Rhino.Display.DisplayBitmapDrawList,System.Single,System.Boolean)] Missing &lt;param name=&quot;items&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawSprites(Rhino.Display.DisplayBitmap,Rhino.Display.DisplayBitmapDrawList,System.Single,System.Boolean)] Missing &lt;param name=&quot;size&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawSprites(Rhino.Display.DisplayBitmap,Rhino.Display.DisplayBitmapDrawList,System.Single,System.Boolean)] Missing &lt;param name=&quot;sizeInWorldSpace&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;xform&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.V6Annotation.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;scale&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;xform&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)] Missing &lt;param name=&quot;scale&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:Rhino.Display.DisplayPipeline.ObjectCulling] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayPipeline.Viewport] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayPipeline.ZBiasMode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4026,10 +4020,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimS
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.GetUnusedStyleName] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.GetUnusedStyleName(System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Tables.DimStyleTable.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.V6Annotation.AnnotationBase)] Missing &lt;param name=&quot;annotation&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.AnnotationBase)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.AnnotationBase)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.AnnotationBase)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.Modify(Rhino.DocObjects.DimensionStyle,Rhino.Geometry.AnnotationBase)] Missing &lt;param name=&quot;annotation&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.DimStyleTable.SetCurrent(System.Int32,System.Boolean)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4479,29 +4473,16 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.Obje
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSurface(Rhino.Geometry.Surface,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSurface(Rhino.Geometry.Surface,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddSurface(Rhino.Geometry.Surface,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.V6Annotation.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;attributes&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;history&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(Rhino.Geometry.TextEntity,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.DimensionStyle,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;reference&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Tables.ObjectTable.AddText(System.String,Rhino.Geometry.Plane,System.Double,System.String,System.Boolean,System.Boolean,Rhino.DocObjects.ObjectAttributes,Rhino.DocObjects.HistoryRecord,System.Boolean)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -4995,6 +4976,37 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AngularDimens
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AngularDimension.GetTextRectangle(Rhino.Geometry.Point3d[]@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AngularDimension.GetTextRectangle(Rhino.Geometry.Point3d[]@)] Missing &lt;param name=&quot;corners&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AngularDimension.Type] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.ClearOverrideDimStyle] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.ClearPropertyOverrides] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.ClearPropertyOverrides] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.DimensionScale] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.DimensionStyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.DrawForward] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.Font] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;parentDimStyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.GetDimstyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.GetModelUnits] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.HasPropertyOverrides] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;param name=&quot;field&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Geometry.AnnotationBase.m_doc_serialnumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.MaskColorSource] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.ParentDimensionStyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;getDimStyleFunc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;getModelUnits&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;docSerialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetOverrideDimStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetOverrideDimStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;OverrideStyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;rtfText&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.TextFormula] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.AnnotationExtensions] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;param name=&quot;annotationBase&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Arc.EpsilonEquals(Rhino.Geometry.Arc,System.Double)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Arc.EpsilonEquals(Rhino.Geometry.Arc,System.Double)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Arc.EpsilonEquals(Rhino.Geometry.Arc,System.Double)] Missing &lt;param name=&quot;epsilon&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -5210,10 +5222,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimensi
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.FromPoints(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d)] Missing &lt;param name=&quot;extensionLine2End&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.FromPoints(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d)] Missing &lt;param name=&quot;pointOnDimensionLine&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;defpoint1&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;defpoint2&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;arrowpoint1&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;arrowpoint2&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;extensionLine1End&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;extensionLine2End&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;arrowhead1End&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;arrowhead2End&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;dimlinepoint&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.Get3dPoints(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)] Missing &lt;param name=&quot;textpoint&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.LinearDimension.GetDisplayLines(Rhino.DocObjects.DimensionStyle,System.Double,System.Collections.Generic.IEnumerable{Rhino.Geometry.Line}@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -5862,8 +5874,19 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.SweepTwoRail.
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.SweepTwoRail.SweepTolerance] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextDot.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextDot.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.TextEntity] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;richTextString&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;plane&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;style&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;wrapped&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;rectWidth&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;rotationRadians&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;textscale&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.TextEntity.TextHorizontalAlignment] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.TextEntity.TextVerticalAlignment] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.TextRunType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Torus.EpsilonEquals(Rhino.Geometry.Torus,System.Double)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Torus.EpsilonEquals(Rhino.Geometry.Torus,System.Double)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -5959,53 +5982,6 @@ BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Geometry.Intersect] Mi
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Geometry.MeshRefinements] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Geometry.Morphs] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Morphs.FlowSpaceMorph.#ctor(Rhino.Geometry.Curve,Rhino.Geometry.Curve,System.Boolean)] Missing &lt;param name=&quot;preventStretching&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Geometry.V6Annotation] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.ClearOverrideDimStyle] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.ClearPropertyOverrides] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.ClearPropertyOverrides] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.DimensionScale] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.DimensionStyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.DrawForward] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.DrawTextMask] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.Font] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;parentDimStyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.GetDimstyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.GetModelUnits] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.HasPropertyOverrides] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.IsPropertyOverridden(Rhino.DocObjects.DimensionStyle.Field)] Missing &lt;param name=&quot;field&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Geometry.V6Annotation.AnnotationBase.m_doc_serialnumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.MaskColor] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.MaskColorSource] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.MaskOffset] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.AnnotationBase.ParentDimensionStyle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;getDimStyleFunc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;getModelUnits&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetContext(System.Func{System.Guid,System.UInt32,Rhino.DocObjects.DimensionStyle},System.Func{System.UInt32,Rhino.UnitSystem},System.UInt32)] Missing &lt;param name=&quot;docSerialNumber&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetOverrideDimStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetOverrideDimStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;OverrideStyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;rtfText&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationBase.SetRichText(System.String,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.V6Annotation.AnnotationExtensions] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.V6Annotation.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.V6Annotation.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;param name=&quot;annotationBase&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.AnnotationExtensions.SetDefaultContext(Rhino.Geometry.V6Annotation.AnnotationBase,Rhino.RhinoDoc)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Geometry.V6Annotation.TextEntity] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;richTextString&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;plane&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;style&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;wrapped&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;rectWidth&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.Create(System.String,Rhino.Geometry.Plane,Rhino.DocObjects.DimensionStyle,System.Boolean,System.Double,System.Double)] Missing &lt;param name=&quot;rotationRadians&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;textscale&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.V6Annotation.TextEntity.GetTextTransform(System.Double,Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;dimstyle&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.TextEntity.TextHorizontalAlignment] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.V6Annotation.TextEntity.TextVerticalAlignment] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.RhinoGet.GetAngle(System.String,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.RhinoGet.GetAngle(System.String,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double@)] Missing &lt;param name=&quot;basePoint&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.RhinoGet.GetAngle(System.String,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double@)] Missing &lt;param name=&quot;referencePoint&quot;/&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
@@ -8459,20 +8435,20 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballPick
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.UI.Gumball.GumballPickResult.Mode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Gumball.GumballPickResult.SetToDefault] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Gumball.GumballScaleMode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj]
-  Processed 12679 topic(s)
-  6670 warning(s)
+  Processed 12653 topic(s)
+  6652 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:53.83
-    Last step completed in 00:03:54.0410
+Time Elapsed 00:03:53.00
+    Last step completed in 00:03:53.2166
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1270
+    Last step completed in 00:00:00.1200
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -8484,17 +8460,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1
-Processed 12679 HTML files
+Processed 12653 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website
-Processed 12679 HTML files
+Processed 12653 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\WebTOC.xml
-    Last step completed in 00:00:29.5406
+    Last step completed in 00:00:27.2764
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -8635,7 +8611,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.7912
+    Last step completed in 00:00:01.8980
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -8647,7 +8623,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2150
+    Last step completed in 00:00:00.2200
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -8664,11 +8640,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 2 minutes, 6 seconds
   
-  12,681	Topics
+  12,655	Topics
   
-  177,434	Local links
+  176,934	Local links
   
-  40,738	Internet links
+  40,642	Internet links
   
   0	Graphics
   
@@ -8676,11 +8652,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 13,049,582 bytes
+  Created d:\BuildAgent\work\f39ec8f82695db9\src4\DotNetSDK\rhinocommon\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 13,015,494 bytes
   
-  Compression decreased file by 108,560,244 bytes.
+  Compression decreased file by 108,302,308 bytes.
   
-    Last step completed in 00:02:08.4938
+    Last step completed in 00:02:08.7240
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -8691,7 +8667,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:38.2234
+</plugIn>    Last step completed in 00:00:36.9222
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -8726,16 +8702,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15412 files for the website content
-    Last step completed in 00:00:16.1956
+Copied 15379 files for the website content
+    Last step completed in 00:00:12.3758
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:21.6908
+    Last step completed in 00:00:17.1860
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2/4/2017 10:11:18 AM.  Total time: 00:08:24.6248
+Build completed successfully at 2/4/2017 7:08:08 PM.  Total time: 00:08:12.1400
 
 </buildStep>
 </shfbBuild>
